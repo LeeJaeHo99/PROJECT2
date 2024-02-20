@@ -1,0 +1,314 @@
+2024-02-19 09:32:19.557 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-19 09:32:48.491 [info] Started local extension host with pid 11960.
+2024-02-19 09:32:55.465 [info] [perf] Render performance baseline is 75ms
+2024-02-19 09:33:17.778 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 09:33:22.940 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 09:33:22.940 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-02-19 09:33:40.781 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 09:34:09.250 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 09:34:09.250 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-02-19 09:34:13.403 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 09:34:16.463 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 09:34:29.458 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 09:34:29.802 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 09:41:48.770 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:42:08.673 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:42:18.328 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:42:34.499 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:42:36.080 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:42:37.554 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:42:46.491 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:42:50.001 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:43:15.684 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:43:32.147 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:44:21.844 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:44:56.626 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:45:00.591 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:46:07.478 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:46:08.711 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:46:30.490 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:46:41.392 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:46:44.806 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:47:31.121 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:47:32.951 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:51:21.251 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:51:22.858 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:51:26.678 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:51:29.309 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:51:40.943 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:51:42.239 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:51:59.348 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:52:24.814 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 09:52:38.279 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 09:53:19.930 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:53:21.862 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:53:24.133 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:53:41.865 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:53:51.584 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:56:16.526 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:56:25.511 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:56:52.596 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:56:54.441 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:56:59.697 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:58:59.881 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:59:00.965 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:59:37.785 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:59:45.012 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:59:46.852 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 09:59:56.339 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 10:00:00.925 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 10:00:03.994 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 10:00:06.299 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 10:00:51.632 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:01:05.442 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:01:22.943 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:02:26.181 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:02:27.216 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:02:38.975 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:02:47.791 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:02:50.085 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:07:34.674 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 10:07:55.181 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 10:07:56.944 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:1899:12495
+2024-02-19 10:08:01.424 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:08:03.658 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:08:04.695 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:08:15.159 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:08:20.236 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:08:23.332 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:08:24.718 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:08:27.910 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:08:41.270 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:08:49.542 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:13:51.123 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:13:52.274 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:13:54.995 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:13:57.603 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:14:04.121 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:14:13.478 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 10:14:14.711 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 10:17:17.574 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:17:18.717 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:17:22.026 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:18:39.771 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:18:44.880 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:18:58.110 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:19:00.076 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:19:02.826 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:19:04.098 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:31:33.669 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:31:34.882 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:31:37.227 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:31:42.219 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:31:44.996 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:31:47.099 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:31:56.919 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:31:58.757 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:32:14.068 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:32:16.406 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:32:20.934 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 10:32:24.621 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 10:32:24.659 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:32:32.274 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:32:51.693 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:33:05.938 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:33:07.413 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:33:09.870 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:33:47.022 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:34:50.541 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:34:53.700 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:35:10.609 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:37:51.057 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 10:37:51.385 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 10:37:51.386 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-02-19 10:37:58.500 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:38:00.177 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:38:32.442 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:38:52.882 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:38:58.944 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:40:43.769 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:40:45.264 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:44:06.674 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:44:08.736 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:46:17.469 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 10:46:18.917 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 10:46:29.940 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:46:32.356 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:46:34.639 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:46:39.797 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:46:50.603 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:46:53.393 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:47:01.723 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:47:10.426 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:47:19.637 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:47:27.762 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:53:39.156 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:53:41.767 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:53:43.033 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:56:34.503 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:58:20.233 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 10:58:21.743 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 10:58:24.780 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 10:58:33.164 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 10:58:43.478 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 10:58:44.924 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 10:58:56.548 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 10:59:19.779 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:02:10.588 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:02:13.293 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:02:16.052 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:02:19.621 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:02:21.337 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:02:37.367 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:04:08.407 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:04:09.530 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:04:11.880 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:04:53.814 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:04:56.470 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:05:25.921 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:05:27.945 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:05:31.156 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:05:35.121 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:05:40.821 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:06:07.441 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:06:25.695 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:06:29.303 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:06:41.359 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:06:42.745 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:06:48.320 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:06:50.775 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:06:54.375 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:09:06.632 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:09:16.408 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:32:40.614 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:32:42.516 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:32:48.019 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:32:49.500 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:32:51.138 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:32:51.621 [error] Error: The editor could not be opened because the file was not found.
+    at M.fc (vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:2148:25082)
+    at async M.setInput (vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:2148:24168)
+    at async b.S (vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:2146:23046)
+    at async b.L (vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:2146:21637)
+    at async b.openEditor (vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:2146:20603)
+    at async vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:2275:23005
+    at async v.M (vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:1184:80268)
+    at async v.openCodeEditor (vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:720:4538)
+    at async o.open (vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:645:43427)
+    at async f.open (vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:645:44557)
+2024-02-19 11:33:07.160 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:1899:12495
+2024-02-19 11:33:09.595 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 11:33:13.637 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 11:33:17.465 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 11:33:33.582 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 11:33:37.412 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 11:33:48.025 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 11:33:55.727 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 11:34:01.642 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 11:34:04.927 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 11:34:12.048 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 11:34:15.177 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 11:34:19.859 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:1899:12495
+2024-02-19 11:34:33.620 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/e:/ljh/VSCode-win32-x64-1.85.1/resources/app/out/vs/workbench/workbench.desktop.main.js:1899:12495
+2024-02-19 11:34:40.240 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 11:34:43.025 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:45:44.429 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:45:47.248 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:45:48.345 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:45:49.942 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:45:59.417 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:46:03.229 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:46:12.870 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:46:20.302 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:46:28.123 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:46:30.173 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:46:33.772 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:46:39.889 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:46:51.471 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:47:14.486 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:47:19.374 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:52:06.907 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:52:08.358 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:52:25.253 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:52:31.622 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:57:43.903 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 11:57:44.554 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 11:57:48.588 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 11:57:55.114 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 11:59:51.336 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 11:59:52.424 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:00:12.762 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:00:16.247 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:00:20.227 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:00:25.158 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:00:42.947 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:02:40.726 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:02:48.556 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:02:55.393 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:03:07.025 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:04:27.008 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:04:51.351 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:05:58.479 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:06:57.207 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 12:07:03.972 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 12:09:36.797 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 12:09:42.942 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 12:10:42.480 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:10:43.483 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:10:49.990 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:10:59.547 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:11:00.818 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:11:03.934 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:11:24.313 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:11:30.985 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:12:01.463 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:12:03.761 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:12:30.823 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:14:00.332 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:14:04.319 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 12:14:06.965 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 12:14:10.029 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 12:14:13.717 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 12:14:13.760 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:14:16.731 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:14:30.436 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:14:43.350 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:15:15.150 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:15:19.063 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:18:24.960 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:19:45.149 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:19:46.307 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:19:48.054 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:31:52.442 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:31:54.949 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:32:36.660 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:32:40.362 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:33:25.402 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:33:52.981 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:33:59.002 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:34:19.077 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:34:23.811 [info] Extension host (LocalProcess pid: 11960) is unresponsive.
+2024-02-19 12:34:27.212 [info] Extension host (LocalProcess pid: 11960) is responsive.
+2024-02-19 12:34:27.301 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:34:38.980 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:34:41.579 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:34:42.897 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:34:48.600 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:34:54.767 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:34:56.294 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:35:00.446 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:35:02.413 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:35:06.016 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:35:13.332 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:36:06.986 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:36:16.421 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:36:17.588 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:36:19.289 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:36:22.946 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:36:25.306 [error] An unknown error occurred. Please consult the log for more details.
+2024-02-19 12:37:27.564 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2024-02-19 12:37:32.596 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.workingCopyHistory

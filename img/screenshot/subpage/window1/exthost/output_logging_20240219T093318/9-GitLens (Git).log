@@ -1,0 +1,102 @@
+[2024-02-19 00:34:17.126] [     57ms] [e:\ljh\html] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 00:34:25.063] [*  4260ms] [e:\ljh\html\project2\html\news] git rev-parse --show-toplevel (slow) • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 00:34:29.738] [*  4597ms] [e:\ljh\html\project2\html\store] git rev-parse --show-toplevel (slow) • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 00:40:52.362] [     51ms] [e:\ljh\html\02_js\03] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 00:51:16.841] [     60ms] [e:\ljh\html\02_js\03] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 01:08:01.494] [    112ms] [e:\ljh\html\02_js\03] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 01:31:27.683] [     57ms] [e:\ljh\html\02_js\03] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 01:46:22.714] [     58ms] [e:\ljh\html\02_js\03] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 01:58:52.833] [     90ms] [e:\ljh\html\02_js\03] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 02:33:48.285] [    347ms] [e:\ljh\html\02_js\03] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 02:34:46.581] [    246ms] [e:\ljh\html\02_js\03] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 02:45:41.170] [     80ms] [e:\ljh\html\02_js\03] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 02:57:55.236] [     93ms] [e:\ljh\html\02_js\03] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 03:07:04.101] [     84ms] [e:\ljh\html\02_js\03] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 03:09:45.832] [     68ms] [e:\ljh\html\02_js\03] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 03:31:03.990] [     74ms] [e:\ljh\html\project2\html\franchise] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-02-19 03:35:52.163] [     59ms] [e:\ljh\html\project2\html\brand] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: C:\Program Files\Git\cmd\git.exe -c core.longpaths=true -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+

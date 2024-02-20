@@ -1,0 +1,11 @@
+2024-02-19 09:32:02.675 [info] update#setState idle
+2024-02-19 09:32:44.757 [info] update#setState checking for updates
+2024-02-19 09:32:52.610 [info] update#setState available for download
+2024-02-19 09:33:37.049 [info] WSL is not installed, so could not detect WSL profiles
+2024-02-19 11:33:34.742 [error] [DialogMainService]: file save dialog is already or will be showing for the window with the same configuration
+2024-02-19 11:33:37.893 [error] [DialogMainService]: file save dialog is already or will be showing for the window with the same configuration
+2024-02-19 11:33:38.237 [error] [DialogMainService]: file save dialog is already or will be showing for the window with the same configuration
+2024-02-19 12:37:57.736 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-19 12:37:57.763 [info] Extension host with pid 11960 exited with code: 0, signal: unknown.
+2024-02-19 12:38:01.840 [warning] [storage main] detected slow close() operation: Time: 10991ms, DB size: 106496b, Large Keys: memento/workbench.editors.files.textFileEditor:39697, history.entries:25687, __$__targetStorageMarker:2521, workbench.view.extensions.state:1983, memento/workbench.parts.editor:1396
+2024-02-19 12:38:01.846 [warning] [storage main] detected slow close() operation: Time: 10997ms, DB size: 585728b, Large Keys: iconThemeData:510493, colorThemeData:18867, workbench.activity.placeholderViewlets:5219, memento/experiment.service.memento:2929, __$__targetStorageMarker:2631
