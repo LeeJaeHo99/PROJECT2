@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap'); /* 노토산스 */
-@import url(./fonts.css); /* 프리텐다드 */
+@import url(./fonts.css); /* 프리텐다드 */ /* Mont */
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css); /* 폰트어썸 */
 
 html, body, div, span, applet, object, iframe,
@@ -64,32 +64,31 @@ html{
     -moz-osx-font-smoothing: grayscale;
 }
 :root{
-    --primary1: rgb(0, 84, 166);
-    --primary2: #001325;
-    --primary3: #003478;
-    --accent1: #a3192d;
-    --accent2: #ffcb05;
-    --text1: #222;
-    --text2: #313131;
-    --text3: #707070;
-    --text4: #003478;
+    --primary1: #E70017;
+    /* --primary2: #001325; */
+    /* --primary3: #003478; */
+    /* --accent1: #a3192d; */
+    /* --accent2: #ffcb05; */
+    --text1: #000;
+    --text2: #4b4b4b;
+    --text3: #242424
+    --text4: #888
     --bg: #fff;
-    --link: #779ea2;
+    /* --link: #779ea2; */
 }
 a{
     text-decoration: none;
-    color: #222;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 a:focus {
     background: #5a6cd4;
     color: #fff;
 }
 body{
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 .h1, h1{
-    font-family: 'Pretendart', sans-serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 3.2rem;
     font-weight: 700;
 }
@@ -128,6 +127,11 @@ body{
 }
 .pa{
     position: absolute;
+}
+.pf{
+    position: fixed;
+    z-index: 99;
+    top: 0;
 }
 .b1s{
     border: 1.5px solid;

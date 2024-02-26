@@ -1,0 +1,195 @@
+.inner{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+.remove{
+    display: none;
+}
+
+/* ====================================
+    ======= header ======    
+==================================== */
+header{
+    width: 100%;
+    height: 10rem;
+}
+/* ===== bg ===== */
+
+/* ===== bg ===== */
+
+/* ===== gnb ===== */
+.gnb{
+    width: 100%;
+    height: 8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ===== logo ===== */
+.logo{
+    width: 30%;
+}
+.logo .red_logo{
+    width: 22rem;
+}
+.logo .indent_logo{
+    display: none;
+}
+/* ===== logo ===== */
+/* ===== nav ===== */
+nav{
+    width: 70%;
+    height: 100%;
+}
+.dep1{
+    position: relative;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: right;
+    column-gap: 2rem;
+}
+.dep1 > li{
+    height: 100%;
+    line-height: 8rem;
+    display: block;
+}
+.dep1 > li a{
+    /* color: white; */
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: block;
+    padding: 0 3rem;
+    height: 100%;
+    line-height: 8rem;
+}
+.dep2{
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    transition: all .3s;
+    text-align: center;
+    background-color: white;
+    width: 16.5rem;
+    border-radius: 3%;
+}
+.dep2 > li a{
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 6rem;
+}
+.dep2 li:hover a{
+    color: var(--primary1);
+}
+.dep2_1{
+    left: 33rem;
+}
+.dep1 li:hover .dep2_1{
+    height: 229%;
+}
+.dep2_2{
+    left: 45rem;
+}
+.dep1 li:hover .dep2_2{
+    height: 229%;
+}
+.dep2_3{
+    left: 56rem;
+}
+.dep1 li:hover .dep2_3{
+    height: 151%;
+}
+.dep2_4{
+    left: 68rem;
+}
+.dep1 li:hover .dep2_4{
+    height: 151%;
+}
+.dep2_5{
+    left: 78.5rem;
+}
+.dep1 li:hover .dep2_5{
+    height: 380%;
+}
+/* ===== nav ===== */
+/* ===== gnb ===== */
+
+/* ====================================
+    ======= sec1 ======    
+==================================== */
+/* ===== mainbanner ===== */
+.sec1{
+    width: 100%;
+    height: 40rem;
+}
+.sec1_mainbanner{
+    width: 100%;
+    height: 35rem;
+    background-image: url(/project2/img/subpage/menu/bg/menu_bg_pc.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* ===== mainbanner ===== */
+/* ===== sec1_title ===== */
+.sec1_title{
+    top: -20rem;
+    left: 56rem;
+    font-size: 6rem;
+    font-family: Mont;
+    color: white;
+}
+/* ===== sec1_title ===== */
+.brand_link{
+    width: 100%;
+    height: 11rem;
+}
+.brand_link ul{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 9rem;
+    margin: auto;
+    padding: 0 4rem;
+}
+.brand_link ul li{
+    line-height: 11rem;
+    height: 100%;
+}
+.brand_link ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+ul > li.link_main_li a{
+    position: relative;
+    color: var(--primary1);
+}
+ul > li.link_main_li a:before{
+    position: absolute;
+    content: '';
+    background-color: var(--primary1);
+    width: 4rem;
+    height: 3px;
+    top: 73px;
+    left: -2px;
+}
+/* ====================================
+    ======= sec1 ======    
+==================================== */
+
+/* ====================================
+    ======= sec2 ======    
+==================================== */
+.sec2{
+    width: 100%;
+    margin-top: 3rem;
+}
+/* ====================================
+    ======= sec2 ======    
+==================================== */

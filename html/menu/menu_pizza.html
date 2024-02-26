@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fred Pizza</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./img/logo/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/project2/css/reset.css">
+    <link rel="stylesheet" href="/project2/css/menu_pizza.css">
+    <link rel="shortcut icon" href="/project2/img/logo/favicon.png" type="image/x-icon">
 </head>
 <body>
     <div class="wrap">
         <header>
             <div class="inner">
-                <div class="logo">
-                    <img class="red_logo" src="./img/logo/red_logo.png" alt="">
-                    <h1 class="indent_logo">FRED PIZZA</h1>
-                </div> <!-- logo -->
-                <nav>
-                    <ul class="dep1">
+                <div class="gnb df">
+                    <div class="logo">
+                        <img class="red_logo" src="/project2/img/logo/red_logo.png" alt="">
+                        <h1 class="indent_logo remove">FRED PIZZA</h1>
+                    </div> <!-- logo -->
+                    <nav>
+                    <ul class="dep1 df">
                         <li class="dep1_li">
                             <a href="">브랜드</a>
-                            <ul class="dep2">
+                            <ul class="dep2 dep2_1">
                                 <li class="dep2_li">
                                     <a href="">브랜드 스토리</a>
                                 </li>
@@ -34,7 +35,7 @@
                         </li> <!-- 브랜드 -->
                         <li class="dep1_li">
                             <a href="">메뉴</a>
-                            <ul class="dep2">
+                            <ul class="dep2 dep2_2">
                                 <li class="dep2_li">
                                     <a href="">피자</a>
                                 </li>
@@ -48,7 +49,7 @@
                         </li> <!-- 메뉴 -->
                         <li class="dep1_li">
                             <a href="">매장</a>
-                            <ul class="dep2">
+                            <ul class="dep2 dep2_3">
                                 <li class="dep2_li">
                                     <a href="">매장 찾기</a>
                                 </li>
@@ -59,7 +60,7 @@
                         </li> <!-- 매장 -->
                         <li class="dep1_li">
                             <a href="">뉴스</a>
-                            <ul class="dep2">
+                            <ul class="dep2 dep2_4">
                                 <li class="dep2_li">
                                     <a href="">새소식</a>
                                 </li>
@@ -70,7 +71,7 @@
                         </li> <!-- 뉴스 -->
                         <li class="dep1_li">
                             <a href="">창업</a>
-                            <ul class="dep2">
+                            <ul class="dep2 dep2_5">
                                 <li class="dep2_li">
                                     <a href="">창업 경쟁력</a>
                                 </li>
@@ -89,25 +90,27 @@
                             </ul> <!-- dep2 -->
                         </li> <!-- 창업 -->
                     </ul> <!-- dep1 -->
-                </nav> <!-- nav -->
+                    </nav> <!-- nav -->
+                </div>
             </div> <!-- header inner -->
         </header> <!-- header -->
         <main>
-            <div class="inner">
                 <section class="sec1">
                     <div class="sec1_mainbanner">
-                        <img src="/project2/img/subpage//menu/bg/menu_bg_pc.jpg" alt="sec1_mainbanner">
-                        <div class="sec1_title">Menu</div>
+                        <!-- <img  class="banner_img" src="/project2/img/subpage//menu/bg/menu_bg_pc.jpg" alt="sec1_mainbanner"> -->
                     </div> <!-- sec1_mainbanner -->
-                    <div class="brand_link">
-                        <ul>
-                            <li><a href="">피자</a></li>
-                            <li><a href="">사이드</a></li>
-                            <li><a href="">세트</a></li>
-                        </ul>
-                    </div> <!-- brand_link -->
+                    <div class="inner pr">
+                        <div class="sec1_title pa">Menu</div>
+                        <div class="brand_link">
+                            <ul>
+                                <li class="link_main_li"><a href="">피자</a></li>
+                                <li><a href="">사이드</a></li>
+                                <li><a href="">세트</a></li>
+                            </ul>
+                        </div> <!-- brand_link -->
+                    </div> <!-- sec1_inner -->
                 </section> <!-- sec1 -->
-                <div class="sec2">
+                <section class="sec2">
                     <ul class="pizza_menu">
                         <li class="new">
                             <div class="front">
@@ -528,8 +531,8 @@
                             </div> <!-- back -->
                         </li> <!-- 마이PICK피자 -->
                     </ul> <!-- pizza_menu -->
+                    </section>
                 </div> <!-- sec2 -->
-            </div> <!-- main inner -->
         </main> <!-- main -->
         <footer>
             <div class="inner">

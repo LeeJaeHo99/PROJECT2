@@ -1,0 +1,117 @@
+.inner{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+.remove{
+    display: none;
+}
+/* ====================================
+    ======= header ======    
+==================================== */
+header{
+    width: 100%;
+    height: 69.5rem;
+}
+/* ===== gnb ===== */
+.gnb{
+    width: 100%;
+    height: 8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ===== logo ===== */
+.logo{
+    width: 30%;
+
+    & .red_logo{
+        width: 22rem;
+        top: -1.5rem;
+    }
+
+    & .indent_logo{
+        /* text-indent: 9999999rem; */
+        display: none;
+    }
+}
+/* ===== logo ===== */
+/* ===== nav ===== */
+nav{
+    width: 70%;
+    height: 100%;
+}
+.dep1{
+    position: relative;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: right;
+    column-gap: 2rem;
+}
+.dep1 > li{
+    height: 100%;
+    line-height: 8rem;
+    display: block;
+}
+.dep1 > li a{
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: block;
+    padding: 0 3rem;
+    height: 100%;
+    line-height: 8rem;
+}
+.dep2{
+    position: absolute;
+    z-index: 99;
+    height: 0;
+    overflow: hidden;
+    transition: all .3s;
+    text-align: center;
+    background-color: white;
+    width: 16.5rem;
+    border-radius: 3%;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.dep2 > li a{
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 6rem;
+}
+.dep2 li:hover a{
+    color: var(--primary1);
+}
+.dep2_1{
+    left: 33rem;
+}
+.dep1 li:hover .dep2_1{
+    height: 229%;
+}
+.dep2_2{
+    left: 45rem;
+}
+.dep1 li:hover .dep2_2{
+    height: 229%;
+}
+.dep2_3{
+    left: 56rem;
+}
+.dep1 li:hover .dep2_3{
+    height: 151%;
+}
+.dep2_4{
+    left: 68rem;
+}
+.dep1 li:hover .dep2_4{
+    height: 151%;
+}
+.dep2_5{
+    left: 78.5rem;
+}
+.dep1 li:hover .dep2_5{
+    height: 380%;
+}
+/* ===== nav ===== */
+/* ===== gnb ===== */
