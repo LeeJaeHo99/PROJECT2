@@ -38,7 +38,7 @@
 ==================================== */
 header{
     width: 100%;
-    height: 69.5rem;
+    height: 92rem;
 }
 /* ===== bg ===== */
 .slide{
@@ -71,8 +71,8 @@ header{
 
 /* ===== bg ===== */
 
-/* ===== gnb ===== */
-.gnb{
+/* ===== gnb_white ===== */
+.gnb_white{
     width: 100%;
     height: 8rem;
     align-items: center;
@@ -86,11 +86,6 @@ header{
         width: 22rem;
         top: -1.5rem;
     }
-    & .red_logo{
-        width: 22rem;
-        top: -1.5rem;
-    }
-
     & .indent_logo{
         /* text-indent: 9999999rem; */
         display: none;
@@ -176,7 +171,7 @@ nav{
     height: 380%;
 }
 /* ===== nav ===== */
-/* ===== gnb ===== */
+/* ===== gnb_white ===== */
 
 /* ===== header_bg_text ===== */
 .header_bg_text .show{
@@ -274,7 +269,7 @@ nav{
 .sec1{
     width: 100%;
     height: 70rem;
-    padding-top: 35rem;
+    padding-top: 20rem;
     padding-bottom: 10rem;
     overflow: hidden;
 }
@@ -285,6 +280,22 @@ nav{
     opacity: 0;
     transition: all 1.5s;
 }
+
+/* ===== gnb_red ===== */
+.gnb_red{
+    /* display: none; */
+    position: sticky;
+    background-color: white;
+}
+div.gnb_red > nav a{
+    color: black;
+}
+.red_logo{
+    width: 22rem;
+    top: 1.5rem;
+}
+/* ===== gnb_red ===== */
+
 /* ===== sec1_pizza_wrap ===== */
 .sec1_pizza_wrap{
     top: 15rem;
@@ -552,7 +563,6 @@ iframe{
     border-radius: 1.6rem;
     max-width: 100%;
 }
-
 .sec4_right_textbox_title{
     font-size: 6.8rem;
     font-family: Mont;
@@ -576,7 +586,7 @@ iframe{
     height: 60rem;
 }
 .sec5_bg{
-    background-image: url(/project2/img/mainpage/sec5/sec5_bg.png);
+    background-image: url(/img/mainpage/sec5/sec5_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -751,7 +761,7 @@ iframe{
     column-gap: 2rem;
 }
 .sec7_bg{
-    background-image: url(/project2/img/mainpage/sec7/sec7_bg.png);
+    background-image: url(/img/mainpage/sec7/sec7_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -867,7 +877,6 @@ div.footer_link span:first-child a{
     bottom: 6rem;
     right: 6rem;
     opacity: 0;
-    /* transform: scale(0); */
     transition: all 0.5s;
 }
 .topbutton, .inquirybutton{

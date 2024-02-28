@@ -40,6 +40,11 @@ $(window).scroll(function(){
     let height = $(window).scrollTop();
     console.log(`스크롤 높이 확인 : ` + height);
 
+    //gnb
+    // if(height > 1100){
+    //     $('.red_logo').show();
+    // }
+
     //sec1 타이틀
     if(height >= 300 && height <= 1000){
         $('.sec1_title').css('opacity', 1);
@@ -126,8 +131,7 @@ $('arrow_next').on('click' , function(){
         $('sec1_pizza_wrap').css('transform', 'translate(10%, 0)')
     }
     pizzaIdx = 0;
-    console.log('pizzaIdx: ', pizzaIdx);
+    console.log('pizzaId', pizzaIdx);
 })
-
 
 

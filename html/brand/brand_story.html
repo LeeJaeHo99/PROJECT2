@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fred Pizza</title>
-    <link rel="stylesheet" href="/project2/css/reset.css">
-    <link rel="stylesheet" href="/project2/css/brand_story.css">
-    <link rel="shortcut icon" href="./img/logo/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/brand_story.css">
+    <link rel="shortcut icon" href="/img/logo/favicon.png" type="image/x-icon">
 </head>
 <body>
     <div class="wrap">
+        <div class="fixed_button">
+            <div class="topbutton df">
+                <img src="/img/mainpage/fixed/arrow_top_white.png" alt="">
+                <span>TOP</span>
+            </div> <!-- topbutton -->
+            <div class="inquirybutton df">
+                가맹<br>
+                문의
+            </div> <!-- inquirybutton -->
+        </div> <!-- fixed_button -->
         <header>
             <div class="inner">
                 <div class="gnb df">
                     <div class="logo pr">
-                        <img class="red_logo pa" src="/project2/img/logo/red_logo.png" alt="">
+                        <a href="/index.html"><img class="red_logo pa" src="/img/logo/red_logo.png" alt=""></a>
                         <h1 class="indent_logo">FREDPIZZA</h1>
                     </div> <!-- logo -->
                     <nav>
                         <ul class="dep1 df">
                             <li class="dep1_li">
-                                <a href="./html/brand/brand_story.html">브랜드</a>
+                                <a href="/html/brand/brand_story.html">브랜드</a>
                                 <ul class="dep2 dep2_1">
                                     <li class="dep2_li">
-                                        <a href="./html/brand/brand_story.html">브랜드 스토리</a>
+                                        <a href="/html/brand/brand_story.html">브랜드 스토리</a>
                                     </li>
                                     <li class="dep2_li">
-                                        <a href="./html/brand/brand_history.html">연혁</a>
+                                        <a href="/html/brand/brand_history.html">연혁</a>
                                     </li>
                                     <li class="dep2_li">
-                                        <a href="./html/brand/brand_map.html">오시는 길</a>
+                                        <a href="/html/brand/brand_map.html">오시는 길</a>
                                     </li>
                                 </ul> <!-- dep2 -->
                             </li> <!-- 브랜드 -->
@@ -95,21 +105,29 @@
             </div> <!-- header inner -->
         </header> <!-- header -->
         <main>
-            <div class="inner">
-                <section class="sec1">
-                    <div class="sec1_mainbanner">
-                        <img src="/project2/img/subpage/brand/brandstory/story_bg_pc.jpg" alt="sec1_mainbanner">
-                        <div class="sec1_title">Brand</div>
-                    </div> <!-- sec1_mainbanner -->
+            <section class="sec1">
+                <div class="sec1_bg">
+                    <div class="sec1_title">Brand</div>
+                </div>
+                <div class="inner">
                     <div class="brand_link">
-                        <ul>
-                            <li><a href="">브랜드 스토리</a></li>
-                            <li><a href="">히스토리</a></li>
-                            <li><a href="">오시는길</a></li>
+                        <ul class="df">
+                            <li>
+                                <a href="/html/brand/brand_story.html">브랜드 스토리
+                                    </a>
+                            </li>
+                            <li>
+                                <a href="/html/brand/brand_history.html">히스토리</a>
+                            </li>
+                            <li>
+                                <a href="/html/brand/brand_map.html">오시는길</a>
+                            </li>
                         </ul>
                     </div> <!-- brand_link -->
-                </section> <!-- sec1 -->
-                <sectioon class="sec2">
+                </div> <!-- sec1_inner -->
+            </section> <!-- sec1 -->
+            <sectioon class="sec2">
+                <div class="inner df">
                     <div class="sec2_left">
                         Our<br>   
                         Story
@@ -117,8 +135,10 @@
                     <div class="sec2_right">
                         프레드 피자는 빠르게 변화하는 트렌드에 비해 너무나도 평범한 피자로 이루어진 국내 피자 시장에 변화를 선도하기 위해 시작되었습니다. 다른 브랜드와 차별성을 가지기 위해 다양하고 차별화된 맛과 최상의 서비스를 제공하며, 국내 F&B시장을 주도하는 브랜드로 성장하기 위해 지속적으로 노력하고 있습니다.
                     </div> <!-- sec2_right -->
-                </sectioon> <!-- sec2 -->
-                <section class="sec3">
+                </div>  <!-- sec2_inner -->
+            </sectioon> <!-- sec2 -->
+            <section class="sec3">
+                <div class="inner df">
                     <div class="sec3_left">
                         <div class="sec3_left_top">
                             항상 고객님을<br>
@@ -135,158 +155,212 @@
                         </div> <!-- bottom -->
                     </div> <!-- left -->
                     <div class="sec3_right">
-                        <img src="/project2/img/subpage/brand/brandstory/brandstory_01.jpg" alt="">
+                        <img src="/img/subpage/brand/brandstory/brandstory_01.jpg" alt="">
                     </div> <!-- right -->
-                </section> <!-- sec3 -->
+                </div> <!-- sec3_inner -->
+            </section> <!-- sec3 -->
                 <section class="sec4">
-                    <div class="sec4_left">
-                        <img src="/project2/img/subpage/brand/brandstory/brandstory_02.jpg" alt="">
-                    </div> <!-- left -->
-                    <div class="sec4_right">
-                        <div class="sec4_right_top">
-                            건강하고,<br>
-                            행복한 삶을 위해<br>
-                            노력합니다.
-                        </div> <!-- top -->
-                        <div class="sec4_right_bottom">
-                            안전한 식자재 위생관리와 엄격한 재료 선별을<br>
-                            통해 고객에게 최상의 제품과 서비스를 제공하기<br>
-                            위해 노력하고 있습니다. 직접 제작한 특별 소스,<br>
-                            신선한 토핑, 풍부하고 깊은 맛의 치즈. 저온 숙성한<br>
-                            흑미 도우를 사용하여 고객님의 건강하고 행복한<br>
-                            삶을 추구합니다.
-                        </div> <!-- bottom -->
-                    </div> <!-- right -->
+                    <div class="inner df">
+                        <div class="sec4_left">
+                            <img src="/img/subpage/brand/brandstory/brandstory_02.jpg" alt="">
+                        </div> <!-- left -->
+                        <div class="sec4_right">
+                            <div class="sec4_right_top">
+                                건강하고,<br>
+                                행복한 삶을 위해<br>
+                                노력합니다.
+                            </div> <!-- top -->
+                            <div class="sec4_right_bottom">
+                                안전한 식자재 위생관리와 엄격한 재료 선별을<br>
+                                통해 고객에게 최상의 제품과 서비스를 제공하기<br>
+                                위해 노력하고 있습니다. 직접 제작한 특별 소스,<br>
+                                신선한 토핑, 풍부하고 깊은 맛의 치즈. 저온 숙성한<br>
+                                흑미 도우를 사용하여 고객님의 건강하고 행복한<br>
+                                삶을 추구합니다.
+                            </div> <!-- bottom -->
+                        </div> <!-- right -->
+                    </div> <!-- sec4_inner -->
                 </section> <!-- sec4 -->
                 <section class="sec5">
-                    <div class="sec5_left">
-                        <div class="sec5_left_top">
-                            투명 경영을 통해<br>
-                            신뢰를 기반으로<br>
-                            상생합니다.
-                        </div> <!-- top -->
-                        <div class="sec5_left_bottom">
-                            기업 운영에 관한 모든 정보를 투명하게 공개하여<br>
-                            가맹점과 본사의 신뢰도 상승을 목표로 합니다.<br>
-                            신뢰를 바탕으로 하여 가맹점주님과 본사와의<br>
-                            상생 협력을 통해 서로의 동반 성장을 기대합니다.
-                        </div> <!-- bottom -->
-                    </div> <!-- left -->
-                    <div class="sec5_right">
-                        <img src="/project2/img/subpage/brand/brandstory/brandstory_03.jpg" alt="">
-                    </div> <!-- right -->
+                    <div class="inner df">
+                        <div class="sec5_left">
+                            <div class="sec5_left_top">
+                                투명 경영을 통해<br>
+                                신뢰를 기반으로<br>
+                                상생합니다.
+                            </div> <!-- top -->
+                            <div class="sec5_left_bottom">
+                                기업 운영에 관한 모든 정보를 투명하게 공개하여<br>
+                                가맹점과 본사의 신뢰도 상승을 목표로 합니다.<br>
+                                신뢰를 바탕으로 하여 가맹점주님과 본사와의<br>
+                                상생 협력을 통해 서로의 동반 성장을 기대합니다.
+                            </div> <!-- bottom -->
+                        </div> <!-- left -->
+                        <div class="sec5_right">
+                            <img src="/img/subpage/brand/brandstory/brandstory_03.jpg" alt="">
+                        </div> <!-- right -->
+                    </div> <!-- sec5_inner -->
                 </section> <!-- sec5 -->
                 <section class="sec6">
-                <div class="sec6_banner">
-                    <img src="/project2/img/subpage/brand/brandstory/brandstory_04.jpg" alt="">
-                </div> <!-- banner -->
-                <div class="sec6_text">
-                    <div class="sec6_title">
-                        프레드 피자는 ‘약속’합니다
-                    </div> <!-- title -->
-                    <div class="sec6_content">
-                        프레드 피자는 단순히 식사가 아닌 즐거움과 행복을 선사하는 것을 우선으로 합니다.<br>
-                        또한 높은 서비스를 제공하는 것의 가치를 아는 사장님들과 함께하며, 고객님들의 선택이<br>
-                        후회되지 않도록 가치 있는 브랜드로 자리매김 하고자 합니다. 프레드 피자와 함께하는<br>
-                        모든 이들이 행복할 수 있는 브랜드를 만들어나가겠습니다.
-                    </div> <!-- content -->
-                </div> <!-- text -->
+                    <div class="inner">
+                        <div class="sec6_banner">
+                            <img src="/img/subpage/brand/brandstory/brandstory_04.jpg" alt="">
+                        </div> <!-- banner -->
+                        <div class="sec6_text">
+                            <div class="sec6_title">
+                                프레드 피자는 ‘약속’합니다
+                            </div> <!-- title -->
+                            <div class="sec6_content">
+                            프레드 피자는 단순히 식사가 아닌 즐거움과 행복을 선사하는 것을 우선으로 합니다.<br>
+                            또한 높은 서비스를 제공하는 것의 가치를 아는 사장님들과 함께하며, 고객님들의 선택이<br>
+                            후회되지 않도록 가치 있는 브랜드로 자리매김 하고자 합니다. 프레드 피자와 함께하는<br>
+                            모든 이들이 행복할 수 있는 브랜드를 만들어나가겠습니다.
+                            </div> <!-- content -->
+                        </div> <!-- text -->
+                    </div> <!-- sec6_inner -->
                 </section> <!-- sec6 -->
                 <section class="sec7">
-                    <div class="sec7_title">The Most Delicious Choice!</div> <!-- title -->
-                    <div class="sec7_content">가장 맛있는 선택! 프레드 피자</div> <!-- content -->
+                    <div class="sec7_bg">
+                        <div class="inner">
+                            <div class="sec7_text pa">
+                                <div class="sec7_title">The Most Delicious Choice!</div> <!-- title -->
+                                <div class="sec7_content">가장 맛있는 선택! 프레드 피자</div> <!-- content -->
+                            </div>
+                        </div>
+                    </div>
                 </section> <!-- sec7 -->
                 <section class="sec8">
-                    <div class="sec8_title">Management Philosophy</div> <!-- title -->
-                    <div class="sec8_content1">
-                        <div class="content1_title">
-                            Brand<br>
-                            Vision
+                    <div class="inner">
+                        <div class="sec8_title">Management Philosophy</div> <!-- title -->
+                        <div class="sec8_content1 df pr">
+                            <div class="content1_title">
+                                Brand<br>
+                                Vision
+                            </div>
+                            <div class="content1_text pa">
+                                새로운 변화를 시도하여 국내 F&B 시장을<br>
+                                주도하는 대한민국 대표 요식업 기업
+                            </div>
+                        </div> <!-- content1 -->
+                        <div class="sec8_content2 df pr">
+                            <div class="content2_title">
+                                Brand<br>
+                                Mission
+                            </div>
+                            <div class="content2_text pa">
+                                한 판의 피자가, 최고의 순간이 될 때까지<br>
+                                끝없이 도전합니다
+                            </div>
+                        </div> <!-- content2 -->
+                    </div> <!-- sec8_inner -->
+                    <div class="marquee_box df">
+                        <div class="marquee text">
+                            <div class="text">
+                                <strong>the most delicious choice!</strong><span>fred pizza</span>
+                            </div>
+                            <div class="text">
+                                <strong>the most delicious choice!</strong><span>fred pizza</span>
+                            </div>
+                            <div class="text">
+                                <strong>the most delicious choice!</strong><span>fred pizza</span>
+                            </div>
+                            <div class="text">
+                                <strong>the most delicious choice!</strong><span>fred pizza</span>
+                            </div>
+                            <div class="text">
+                                <strong>the most delicious choice!</strong><span>fred pizza</span>
+                            </div>
+                            <div class="text">
+                                <strong>the most delicious choice!</strong><span>fred pizza</span>
+                            </div>
                         </div>
-                        <div class="content1_text">
-                            새로운 변화를 시도하여 국내 F&B 시장을<br>
-                            주도하는 대한민국 대표 요식업 기업
-                        </div>
-                    </div> <!-- content1 -->
-                    <div class="sec8_content2">
-                        <div class="content2_title">
-                            Brand<br>
-                            Mission
-                        </div>
-                        <div class="content2_text">
-                            한 판의 피자가, 최고의 순간이 될 때까지<br>
-                            끝없이 도전합니다
-                        </div>
-                    </div> <!-- content2 -->
-                    <div class="sec8_line_ani">
-                        <span>the most delicious choice!</span><span>fred pizza</span>
-                    </div> <!-- line_ani -->
+                    </div> <!-- marquee_box -->
                 </section> <!-- sec8 -->
                 <section class="sec9">
-                    <div class="sec9_title">Core Value</div> <!-- title -->
-                    <div class="sec9_left">
-                        <div class="sec9_left_title">Challenging</div>
-                        <div class="sec9_left_content">
-                            기존 시장에서 시도하지 않았던<br>
-                            과감하고 차별화된 메뉴 개발로<br>
-                            끊임 없이 도전하고 발전합니다.
-                        </div>
-                    </div> <!-- left -->
-                    <div class="sec9_mid">
-                        <div class="sec9_mid_title">Reasonable</div>
-                        <div class="sec9_mid_content">
-                            재료를 아낌없이 사용하고,<br>
-                            거품없는 합리적인 금액으로<br>
-                            고객에게 제공하고자 합니다.
-                        </div>
-                    </div> <!-- mid -->
-                    <div class="sec9_right">
-                        <div class="sec9_right_title">Thoughtful</div>
-                        <div class="sec9_right_content">
-                            소비자 중심의 섬세하고<br>
-                            친절한, 최상의 고객만족 서비스를<br>
-                            제공하고자 합니다.
-                        </div>
-                    </div> <!-- right -->
+                    <div class="inner">
+                        <div class="sec9_title">Core Value</div> <!-- title -->
+                        <div class="sec9_box df">
+                            <div class="sec9_left pr">
+                                <div class="imgbox">
+                                    <img src="/img/subpage/brand/brandstory/brandstory_06_left.jpg" alt="">
+                                </div>
+                                <div class="sec9_textbox pa">
+                                    <div class="sec9_left_title">Challenging</div>
+                                    <div class="sec9_left_content">
+                                        기존 시장에서 시도하지 않았던<br>
+                                        과감하고 차별화된 메뉴 개발로<br>
+                                        끊임 없이 도전하고 발전합니다.
+                                    </div>
+                                </div> <!-- textbox -->
+                            </div> <!-- left -->
+                            <div class="sec9_mid pr">
+                                <div class="imgbox">
+                                    <img src="/img/subpage/brand/brandstory/brandstory_06_mid.jpg" alt="">
+                                </div>
+                                <div class="sec9_textbox pa">
+                                    <div class="sec9_mid_title">Reasonable</div>
+                                    <div class="sec9_mid_content">
+                                        재료를 아낌없이 사용하고,<br>
+                                        거품없는 합리적인 금액으로<br>
+                                        고객에게 제공하고자 합니다.
+                                    </div>
+                                </div> <!-- textbox -->
+                            </div> <!-- mid -->
+                            <div class="sec9_right pr">
+                                <div class="imgbox">
+                                    <img src="/img/subpage/brand/brandstory/brandstory_06_right.jpg" alt="">
+                                </div>
+                                <div class="sec9_textbox pa">
+                                    <div class="sec9_right_title">Thoughtful</div>
+                                    <div class="sec9_right_content">
+                                        소비자 중심의 섬세하고<br>
+                                        친절한, 최상의 고객만족 서비스를<br>
+                                        제공하고자 합니다.
+                                    </div>
+                                </div> <!-- textbox -->
+                            </div> <!-- right -->
+                        </div> <!-- sec9_box -->
+                    </div>
                 </section> <!-- sec9 -->
                 <section class="sec10">
-                    <div class="sec10_title">Brand Identity</div> <!-- title -->
-                    <div class="sec10_logo">
-                        <div class="sec10_logo_title">Logo</div>
-                        <div class="sec10_logo_content">
-                            프레드 피자의 로고는 도전적이면서도 합리적인 브랜드 가치를<br>
-                            녹여내기 위해 대담하면서도 직관적인 형태로 표현하였습니다.
-                        </div>
-                        <div class="sec10_logo_img">
-                            <img src="/project2/img/subpage/brand/brandstory/brandstory_logo_left.png" alt="">
-                            <img src="/project2/img/subpage/brand/brandstory/brandstory_logo_right.png" alt="">
-                        </div>
-                    </div> <!-- logo -->
-                    <div class="sec10_color">
-                        <div class="sec10_color_title">Color</div>
-                        <div class="sec10_color_content">
-                            프레드 피자의 메인 컬러는 생동감 넘치는 레드 컬러를 활용하여<br>
-                            신선하고 열정적이며, 도전적인 브랜드 이미지를 표현합니다.
-                        </div>
-                        <div class="sec10_colorbox">
-                            <div class="colorbox_red">
-                                <div class="red_title">FRED RED</div>
-                                <div class="red_hex">#E70017</div>
-                            </div> <!-- red -->
-                            <div class="colorbox_white">
-                                <div class="white_title">WHITE</div>
-                                <div class="white_hex">#FFFFFF</div>
-                            </div> <!-- white -->
-                        </div> <!-- colorbox -->
-                    </div> <!-- color -->
+                    <div class="inner">
+                        <div class="sec10_title">Brand Identity</div> <!-- title -->
+                        <div class="sec10_logo">
+                            <div class="sec10_logo_title">Logo</div>
+                            <div class="sec10_logo_content">
+                                프레드 피자의 로고는 도전적이면서도 합리적인 브랜드 가치를<br>
+                                녹여내기 위해 대담하면서도 직관적인 형태로 표현하였습니다.
+                            </div>
+                            <div class="sec10_logo_img df">
+                                <img src="/img/subpage/brand/brandstory/brandstory_logo_left.png" alt="">
+                                <img src="/img/subpage/brand/brandstory/brandstory_logo_right.png" alt="">
+                            </div>
+                        </div> <!-- logo -->
+                        <div class="sec10_color">
+                            <div class="sec10_color_title">Color</div>
+                            <div class="sec10_color_content">
+                                프레드 피자의 메인 컬러는 생동감 넘치는 레드 컬러를 활용하여<br>
+                                신선하고 열정적이며, 도전적인 브랜드 이미지를 표현합니다.
+                            </div>
+                            <div class="sec10_colorbox df">
+                                <div class="colorbox_red">
+                                    <div class="red_title">FRED RED</div>
+                                    <div class="red_hex">#E70017</div>
+                                </div> <!-- red -->
+                                <div class="colorbox_white">
+                                    <div class="white_title">WHITE</div>
+                                    <div class="white_hex">#FFFFFF</div>
+                                </div> <!-- white -->
+                            </div> <!-- colorbox -->
+                        </div> <!-- color -->
+                    </div> <!-- sec10_inner -->
                 </section> <!-- sec10 -->
-            </div> <!-- main inner -->
         </main> <!-- main -->
         <footer>
             <div class="inner">
                 <div class="footer_link">
-                    <span>개인정보처리방침</span>
-                    <span>이메일 무단 수집 거부</span>
+                    <span><a href="">개인정보처리방침</a></span>
+                    <span><a href="">이메일 무단 수집 거부</a></span>
                 </div> <!-- footer_link -->
                 <div class="footer_info">
                     <span>프레드피자(주)</span>
@@ -299,27 +373,19 @@
                     <span>마케팅 협업 제안: fredpizza.creative@gmail.com</span>
                     <span>가맹문의 및 고객지원: 1811-9809</span>
                 </div> <!-- footer_mail -->
-                <div class="footer_copy">
+                <div class="footer_copy_icon df">
                     <span>Copyright ©프레드피자(주) All Rights Reserved.</span>
+                    <div class="footer_icon df">
+                        <a href=""><img src="/img/mainpage/footer/instagram.png" alt=""></a>
+                        <a href=""><img src="/img/mainpage/footer//facebook.png" alt=""></a>
+                        <a href=""><img src="/img/mainpage/footer/kakao.png" alt=""></a>
+                        <a href=""><img src="/img/mainpage/footer/youtube.png" alt=""></a>
+                    </div> <!-- footer_icon -->
                 </div> <!-- footer_copy -->
-                <div class="footer_icon">
-                    <img src="./img/mainpage/footer/instagram.png" alt="">
-                    <img src="./img/mainpage/footer/facebook.png" alt="">
-                    <img src="./img/mainpage/footer/kakao.png" alt="">
-                    <img src="./img/mainpage/footer/youtube.png" alt="">
-                </div> <!-- footer_icon -->
-                <div class="fixed_button">
-                    <div class="topbutton">
-                        <img src="./img/mainpage/fixed/arrow_top_white.png" alt="">
-                        <span>top</span>
-                    </div> <!-- topbutton -->
-                    <div class="inquirybutton">
-                        가맹<br>
-                        문의
-                    </div> <!-- inquirybutton -->
-                </div> <!-- fixed_button -->
             </div> <!-- footer inner -->
         </footer> <!-- footer -->
     </div> <!-- wrap -->
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js' integrity='sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=' crossorigin='anonymous'></script>
+    <script src="/js/brand_story.js"></script>
 </body>
 </html>

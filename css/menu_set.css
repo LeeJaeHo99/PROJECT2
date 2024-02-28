@@ -159,14 +159,14 @@ nav{
     font-weight: 800;
     color: black;
 }
-.brand_link li:nth-of-type(1) > a{
+.brand_link li:nth-of-type(3) > a{
     color: var(--primary1);
     position: relative;
 }
-.brand_link li:nth-of-type(1) > a:before{
+.brand_link li:nth-of-type(3) > a:before{
     position: absolute;
     content: '';
-    width: 4.5rem;
+    width: 5rem;
     height: 2px;
     top: 6.9rem;
     left: 3.6rem;
@@ -184,10 +184,14 @@ nav{
     margin-top: 3rem;
     margin-bottom: 21rem;
 }
-.pizza_menu{
+.side_menu{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 60px 40px;
+}
+.front > img{
+    width: 100%;
 }
 .front_ko{
     text-align: center;
@@ -206,7 +210,7 @@ nav{
 .back{
     width: 100%;
     text-align: center;
-    top: 23%;
+    top: 29%;
 }
 .back_title{
     font-size: 3.2rem;
@@ -228,6 +232,8 @@ nav{
     justify-content: center;
     column-gap: 2rem;
     line-height: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
 }
 .m span:first-child{
     display: inline-block;
@@ -265,44 +271,9 @@ nav{
     font-size: 2rem;
     font-weight: 700;
 }
-.new{
-    position: relative;
-}
-.new::before{
-    position: absolute;
-    z-index: 5;
-    display: block;
-    content: '';
-    background-image: url(../img/mainpage/sec1/new.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    top: 20px;
-    right: 22px;
-    width: 81px;
-    height: 80px;
-}
-.best{
-    position: relative;
-}
-.best::before{
-    position: absolute;
-    z-index: 5;
-    display: block;
-    content: '';
-    background-image: url(../img/mainpage/sec1/best.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    top: 20px;
-    right: 22px;
-    width: 81px;
-    height: 80px;
-}
 /* ====================================
     ======= sec2 ======    
 ==================================== */
-
 
 /* ====================================
 ======= footer ======    
