@@ -211,11 +211,8 @@ nav{
     justify-content: space-around;
     column-gap: 10rem;
 }
-.sec3_left{
-    opacity: 0;
-    transition: all 1.5s;
-}
 .sec3_right{
+    overflow: hidden;
     opacity: 0;
     transition: all 1.5s;
 }
@@ -223,6 +220,8 @@ nav{
     font-size: 6rem;
     font-weight: 900;
     line-height: 1.1;
+    opacity: 0;
+    transition: all 1s;
 }
 .sec3_left_bottom{
     font-size: 1.6rem;
@@ -230,6 +229,8 @@ nav{
     color: #4b4b4b;
     line-height: 1.5;
     margin-top: 5rem;
+    opacity: 0;
+    transition: all 2.5s;
 }
 /* ====================================
     ======= sec3 ======    
@@ -251,15 +252,14 @@ nav{
 .sec4_left{
     opacity: 0;
     transition: all 1.5s;
-}
-.sec4_right{
-    opacity: 0;
-    transition: all 1.5s;
+    overflow: hidden;
 }
 .sec4_right_top{
     font-size: 6rem;
     font-weight: 900;
     line-height: 1.1;
+    opacity: 0;
+    transition: all 1s;
 }
 .sec4_right_bottom{
     font-size: 1.6rem;
@@ -267,6 +267,8 @@ nav{
     color: #4b4b4b;
     line-height: 1.5;
     margin-top: 5rem;
+    opacity: 0;
+    transition: all 2.5s;
 }
 /* ====================================
     ======= sec4 ======    
@@ -285,18 +287,17 @@ nav{
     justify-content: space-around;
     column-gap: 10rem;
 }
-.sec5_left{
-    opacity: 0;
-    transition: all 1.5s;
-}
 .sec5_right{
     opacity: 0;
     transition: all 1.5s;
+    overflow: hidden;
 }
 .sec5_left_top{
     font-size: 6rem;
     font-weight: 900;
     line-height: 1.1;
+    opacity: 0;
+    transition: all 1s;
 }
 .sec5_left_bottom{
     font-size: 1.6rem;
@@ -304,6 +305,8 @@ nav{
     color: #4b4b4b;
     line-height: 1.5;
     margin-top: 5rem;
+    opacity: 0;
+    transition: all 1s;
 }
 /* ====================================
     ======= sec5 ======    
@@ -522,6 +525,8 @@ nav{
     font-family: Mont;
     text-align: center;
     margin-bottom: 6rem;
+    opacity: 0;
+    transition: all 1.5s;
 }
 .sec9_box{
     justify-content: center;
@@ -544,17 +549,21 @@ nav{
 .imgbox{
     transition: all .8s;
 }
-.sec9_left_title, .sec9_mid_title, .sec9_right_title{
+.textbox_title{
     font-size: 4rem;
     font-family: Mont;
     color: white;
+    opacity: 0;
+    transition: all 1.5s;
 }
-.sec9_left_content, .sec9_mid_content, .sec9_right_content{
+.textbox_content{
     margin-top: 2rem;
     font-size: 2.4rem;
     color: white;
     font-weight: 400;
     line-height: 1.4;
+    opacity: 0;
+    transition: all 2s;
 }
 .sec9_left > .imgbox:hover,
 .sec9_mid > .imgbox:hover,
@@ -579,11 +588,15 @@ nav{
     font-family: Mont;
     text-align: center;
     margin-bottom: 6rem;
+    opacity: 0;
+    transition: all 1s;
 }
 .sec10_logo_title, .sec10_color_title{
     font-size: 4rem;
     font-family: Mont;
     margin-bottom: 2rem;
+    opacity: 0;
+    transition: all 1s;
 }
 .sec10_logo_content, .sec10_color_content{
     font-size: 2.4rem;
@@ -591,9 +604,13 @@ nav{
     line-height: 1.4;
     color: #4b4b4b;
     margin-bottom: 2.5rem;
+    opacity: 0;
+    transition: all 2s;
 }
 .sec10_logo_img{
     justify-content: space-around;
+    opacity: 0;
+    transition: all 1s;
 }
 .sec10_color_title{
     margin-top: 6.5rem;
@@ -601,6 +618,8 @@ nav{
 .sec10_colorbox{
     width: 100%;
     height: 14rem;
+    opacity: 0;
+    transition: all 1s;
 }
 .colorbox_red, .colorbox_white{
     width: 50%;
@@ -693,6 +712,7 @@ div.footer_link span:first-child a{
     right: 6rem;
     opacity: 0;
     transition: all 0.5s;
+    cursor: pointer;
 }
 .topbutton, .inquirybutton{
     width: 10rem;

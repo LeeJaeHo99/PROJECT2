@@ -1,3 +1,6 @@
+.wrap {
+	width: 100%;
+}
 .inner{
     width: 100%;
     max-width: 1300px;
@@ -7,38 +10,72 @@
     display: none;
 }
 .black_button{
-    position: relative;
     width: 30.6rem;
     height: 5.6rem;
     border-radius: 5rem;
     overflow: hidden;
     text-align: center;
-    border: 2px solid #000;
+    cursor: pointer;
 }
-.black_button::before{
+.button_front{
+    width: 30.6rem;
+    height: 5.6rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 5.6rem;
+    top: 0;
+    left: 0;
+    /* border-radius: 5rem; */
+    border: 2px solid #000;
+    transition: all .5s ease-in-out;
+    background-color: black;
+    color: white;
+    z-index: 999;
+}
+.black_button:hover .button_front{
+    transform: translateX(100%);
+}
+.button_back{
+    width: 30.3rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 5.6rem;
+    top: 0;
+    left: 0;
+    border-radius: 5rem;
+    border: 2px solid #000;
+    color: black;
+}
+.button_front > a{
+    color: white;
+}
+.button_back > a{
+    color: black;
+}
+/* .black_button::before{
     position: absolute;
     transition: all .5s;
-    width: 100%;
+    width: 30.6rem;
     height: 6rem;
     content: '';
     background-color: black;
     top: 0;
     left: 0;
-}
-.black_button:hover .black_button::before{
-    opacity: 0;
-}
-.black_button > a{
+} */
+/* .black_button > a{
     z-index: 1;
     font-size: 1.8rem;
     line-height: 5.6rem;
-}
+} */
 /* ====================================
     ======= header ======    
 ==================================== */
 header{
     width: 100%;
-    height: 92rem;
+    height: 69.5rem;
 }
 /* ===== bg ===== */
 .slide{
@@ -215,6 +252,7 @@ nav{
 
     & img{
         width: 2.5rem;
+        cursor: pointer;
     }
     & img:nth-of-type(1){
         margin-left: 2.5rem;
@@ -268,9 +306,9 @@ nav{
 ==================================== */
 .sec1{
     width: 100%;
-    height: 70rem;
-    padding-top: 20rem;
-    padding-bottom: 10rem;
+    height: 60rem;
+    padding-top: 13rem;
+    padding-bottom: 4rem;
     overflow: hidden;
 }
 .sec1_title{
@@ -345,10 +383,10 @@ div.gnb_red > nav a{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-    top: 20px;
-    right: 22px;
-    width: 81px;
-    height: 80px;
+    top: 5rem;
+    right: 1.2rem;
+    width: 8.1rem;
+    height: 8rem;
 }
 .best{
     position: relative;
@@ -362,56 +400,65 @@ div.gnb_red > nav a{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-    top: 20px;
-    right: 22px;
-    width: 81px;
-    height: 80px;
+    top: 5rem;
+    right: 1.2rem;
+    width: 8.1rem;
+    height: 8rem;
 }
-/* ===== sec1_pizza_wrap ===== */
-/* ===== sec1_pizza_arrow ===== */
-.arrow_prev, .arrow_next{
-    position: relative;
+.swiper-wrapper {
+    left: -14rem;
+    padding-bottom: 15rem;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all 1.5s;
+}
+.swiper-slide{
+    width: 32rem;
+    margin-right: 5rem;
+}
+.swiper-slide img {
+    max-width: 32rem;
+    height: 32rem;
+    margin-top: 5rem;
+}
+.sec1_pizza {
+    width: 32rem;
+}
+.swiper-button-next{
+    right: 5rem;
+    left: auto;
+    top: 19.5rem;
+    background-color: #fff;
     width: 4.8rem;
     height: 4.8rem;
     border-radius: 50%;
-    background-color: white;
-    background-repeat: no-repeat;
     filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
-    cursor: pointer;
 }
-.arrow_prev{
-    top: 26rem;
-    left: -26rem;
+.swiper-button-prev{
+    background-color: #fff;
+    width: 4.8rem;
+    height: 4.8rem;
+    left: 5rem;
+    right: auto;
+    top: 19.5rem;
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
 }
-.arrow_next{
-    top: 22rem;
-    right: -151rem;
+:root {
+    --swiper-navigation-size: 27px;
+    --swiper-theme-color: #000;
 }
-.arrow_prev:before{
-    position: absolute;
-    content: '';
-    display: block;
-    width: 2.5rem;
-    height: 2.4rem;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-image: url(../img/mainpage/sec1/arrow_prev.png);
-    background-size: cover;
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 1.8rem;
+    font-weight: 900;
 }
-.arrow_next:before{
-    position: absolute;
-    content: '';
-    display: block;
-    width: 2.5rem;
-    height: 2.4rem;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-image: url(../img/mainpage/sec1/arrow_next.png);
-    background-size: cover;
-}
-/* ===== sec1_pizza_arrow ===== */
+/* ===== sec1_pizza_wrap ===== */
+
 /* ====================================
     ======= sec1 ======    
 ==================================== */
@@ -421,10 +468,10 @@ div.gnb_red > nav a{
 ==================================== */
 .sec2{
     width: 100%;
-    height: 155rem;
+    height: 150rem;
 }
 .sec2_title{
-    top: -70rem;
+    top: -60rem;
     left: 37rem;
     position: absolute;
     font-size: 6.8rem;
@@ -443,7 +490,7 @@ div.gnb_red > nav a{
 }   
 iframe{
     position: absolute;
-    top: -51rem;
+    top: -40rem;
     width: 128rem;
     height: 72rem;
     border-radius: 0.5rem;
@@ -452,11 +499,11 @@ iframe{
 }
 /* =====  marquee ===== */
 .marquee_box{
-    width: 146%;
+    width: 132%;
     position: absolute;
     z-index: -1;
     left: -30rem;
-    padding-top: 37rem;
+    padding-top: 45rem;
     opacity: 0;
     overflow: hidden;
     transition: all 1s;
@@ -538,7 +585,7 @@ iframe{
     }
 }
 .bg_right{
-    top: -35rem;
+    top: -23rem;
     right: 0;
     z-index: -1;
     transition: all 0.5s;
@@ -586,7 +633,7 @@ iframe{
     height: 60rem;
 }
 .sec5_bg{
-    background-image: url(/img/mainpage/sec5/sec5_bg.png);
+    background-image: url(../img/mainpage/sec5/sec5_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -596,6 +643,8 @@ iframe{
     color: #fff;
     font-family: Mont;
     text-align: center;
+    opacity: 0;
+    transition: all 0.5s;
 }
 .sec5_content{
     margin-top: 1.2rem;
@@ -603,27 +652,41 @@ iframe{
     font-weight: 400;
     color: #fff;
     text-align: center;
+    opacity: 0;
+    transition: all 1.5s;
 }
 .sec5_search{
-    text-align: center;
+    text-align: left;
     align-items: center;
     justify-content: space-between;
-    max-width: 84rem;
-    width: 100%;
     height: 7.5rem;
     background-color: white;
     border-radius: 5rem;
     margin: auto;
     margin-top: 10rem;
     margin-bottom: 16rem;
+    position: relative;
+    width: 100%;
+    opacity: 0;
+    transition: all 1.5s;
+    cursor: pointer;
 }
-.sec5_search  > span{
+.search_bar{
+    width: 100%;
+    transition: all 1.5s;
+}
+.search_bar > span{
+    overflow: hidden;
     font-size: 2rem;
     color: #A8A8A8;
     margin-left: 4.5rem;
+    transition: all 1.5s;
 }
 .search_icon{
-    margin-right: 0.5rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0.4rem;
     width: 6.4rem;
     height: 6.4rem;
     border-radius: 50%;
@@ -653,7 +716,7 @@ iframe{
     font-family: Mont;
     text-align: center;
     opacity: 0;
-    transition: 0.5s;
+    transition: all 0.5s;
 }
 .sec6_content{
     text-align: center;
@@ -662,7 +725,7 @@ iframe{
     color: #4B4B4B;
     margin-top: 2.2rem;
     opacity: 0;
-    transition: 1s;
+    transition: all 2s;
 }
 .sec6_box{
     margin-top: 6rem;
@@ -687,6 +750,9 @@ iframe{
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1.5rem;
+}
+.sec6_textbox_title > a{
+    color: black;
 }
 .sec6_textbox_date{
     font-size: 2rem;
@@ -761,7 +827,7 @@ iframe{
     column-gap: 2rem;
 }
 .sec7_bg{
-    background-image: url(/img/mainpage/sec7/sec7_bg.png);
+    background-image: url(../img/mainpage/sec7/sec7_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -894,6 +960,7 @@ div.footer_link span:first-child a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .topbutton img{
     width: 2rem;

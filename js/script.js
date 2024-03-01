@@ -46,92 +46,153 @@ $(window).scroll(function(){
     // }
 
     //sec1 타이틀
-    if(height >= 300 && height <= 1000){
-        $('.sec1_title').css('opacity', 1);
-        $('.sec1_title').css('transform', 'translate(0, 0)');
+    if(height >= 300 && height <= 1500){
+        $('.sec1_title').css({
+            'opacity' : 1,
+            'transform' : 'translate(0, 0)',
+        });
     }else{
-        $('.sec1_title').css('opacity', 0);
-        $('.sec1_title').css('transform', 'translate(0, -60%)');
+        $('.sec1_title').css({
+            'opacity' : 0,
+            'transform' : 'translate(0, -60%)',
+        });
     };
     //sec1 피자
-    if(height >= 300 && height <=2100){
-        $('.sec1_pizza_wrap').css('opacity', 1);
-        $('.sec1_pizza_wrap').css('transform', 'translate(0, 0)')
+    if(height >= 500 && height <=2100){
+        $('.swiper').css({
+            'opacity' : 1,
+            'transform' : 'translate(0, 0)',
+        });
     }else{
-        $('.sec1_pizza_wrap').css('opacity', 0);
-        $('.sec1_pizza_wrap').css('transform', 'translate(0, 60%)')
+        $('.swiper').css({
+            'opacity' : 0,
+            'transform' : 'translate(0, 30%)',
+        });
     }
     
     //iframe
     if(height >= 1300 && height <= 2900){
-        $('.youtube_iframe').css('opacity', 1);
-        $('.youtube_iframe').css('transform', 'translate(0, 0)')
+        $('.youtube_iframe').css({
+            'opacity' : 1,
+            'transform' : 'translate(0, 0)',
+    });
     }else{
-        $('.youtube_iframe').css('opacity', 0);
-        $('.youtube_iframe').css('transform', 'translate(0, -10%)')
+        $('.youtube_iframe').css({
+            'opacity' : 0,
+            'transform' : 'translate(0, -10%)',
+    });
     }
 
-    ////marguee
+    //marguee
     if(height >= 2200 && height <=3500){
         $('.marquee_box').eq(0).css('opacity', 1);
     }else{
         $('.marquee_box').eq(0).css('opacity', 0);
     }
 
-    //sec6_title
-    if(height >= 4500 && height <= 6200){
-        $('.sec6_title, .sec6_content').css('opacity', 1);
-        $('.sec6_title, .sec6_content').css('transform', 'translate(0, 0)');
+    //sec5_title
+    if(height >=3400 && height <= 5000){
+        $('.sec5_title').css({
+            'opacity' : 1,
+            'transform' : 'translate(0, 0)',
+    });
+        $('.sec5_content').css({
+            'opacity' : 1,
+            'transform' : 'translate(0, 0)',
+    });
     }else{
-        $('.sec6_title, .sec6_content').css('opacity', 0);
-        $('.sec6_title, .sec6_content').css('transform', 'translate(0, -20%)');
+        $('.sec5_title').css({
+            'opacity' : 0,
+            'transform' : 'translate(0, -20%)',
+    });
+    $('.sec5_content').css({
+        'opacity' : 0,
+        'transform' : 'translate(0, -20%)',
+});
+    }
+
+    //sec5_search
+    if(height >= 3800 && height <= 5000){
+        $('.sec5_search').css({
+            'opacity' : 1,
+            'transform' : 'translate(0, 0)',
+            'max-width' : '84rem'
+        });
+        $('.search_bar > span').css({
+            'opacity' : 1,
+            'transform' : 'translate(0, 0)',
+            'max-width' : '84rem'
+        });
+        }else{
+            $('.sec5_search').css({
+            'opacity' : 1,
+            'transform' : 'translate(0, 100%)',
+            'max-width' : '7.2rem'
+    });
+            $('.search_bar > span').css({
+            'opacity' : 0,
+            'transform' : 'translate(0, 100%)',
+            'max-width' : '7.2rem'
+    });
+    }
+
+    //sec6_title
+    if(height >= 4100 && height <= 6200){
+        $('.sec6_title, .sec6_content').css({
+            'opacity' : 1,
+            'transform' : 'translate(0, 0)'
+        });
+    }else{
+        $('.sec6_title, .sec6_content').css({
+            'opacity' : 0,
+            'transform' : 'translate(0, -20%)',
+        });
     }
     
     //sec6 box
-    if(height >= 4400){
-        $('.sec6_box > div').css('opacity', 1);
-        $('.sec6_box > div').css('transform', 'translate(0, 0)')
+    if(height >= 4200){
+        $('.sec6_box > div').css({
+            'opacity' : 1,
+            'transform' : 'translate(0, 0)',
+        });
     }else{
-        $('.sec6_box > div').css('opacity', 0);
-        $('.sec6_box > div').css('transform', 'translate(0, -20%)')
+        $('.sec6_box > div').css({
+            'opacity' : 0,
+            'transform' : 'translate(0, -20%)'
+        });
     }
 
     //sec7 box
-    if(height >= 5500){
-        $('.sec7_left, .sec7_right').css('opacity', 1);
-        $('.sec7_left, .sec7_right').css('transform', 'translate(0, 0');
+    if(height >= 5300){
+        $('.sec7_left, .sec7_right').css({
+            'opacity' : 1,
+            'transform' : 'translate(0, 0)',
+    });
     }else{
-        $('.sec7_left, .sec7_right').css('opacity', 0);
-        $('.sec7_left, .sec7_right').css('transform', 'translate(0, -40%');
+        $('.sec7_left, .sec7_right').css({
+            'opacity' : 0,
+            'transform' : 'translate(0, -40%)',
+        });
     }
 
     //fixed_button
-    if(height >= 800){
-        $('.fixed_button').css('opacity', 1);
-        $('.fixed_button').css('transform', 'translate(-50%)');
+    if(height >= 500){
+        $('.fixed_button').css({
+            'opacity' : 1,
+            'transform' : 'translate(-50%)',
+    });
     }else{
-        $('.fixed_button').css('opacity', 0);
-        $('.fixed_button').css('transform', 'translate(50%)');
+        $('.fixed_button').css({
+            'opacity' : 0,
+            'transform'  : 'translate(50%)',
+    });
     }
 });
 
-//자세히보기 버튼:before
-$('.black_button::before').on({
-    'mouseover' : function(){
-        $('.black_button::before').css("transform" , 'translate(100%, 0)');
-    }
+//탑버튼
+$('.topbutton').on('click', function(){
+    window.scroll({
+        'top' : 0,
+        'behavior' : 'smooth',
+    })
 });
-
-//
-
-$('arrow_next').on('click' , function(){
-    let pizzaIdx = 0;
-    pizzaIdx++;
-    if(pizzaIdx >= 1){
-        $('sec1_pizza_wrap').css('transform', 'translate(10%, 0)')
-    }
-    pizzaIdx = 0;
-    console.log('pizzaId', pizzaIdx);
-})
-
-

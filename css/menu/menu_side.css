@@ -126,13 +126,13 @@ nav{
 ==================================== */
 .sec1{
     width: 100%;
-    height: 50rem;
+    height: 45rem;
 
 }
 .sec1_bg{
     width: 100%;
     height: 35rem;
-    background-image: url(/img/subpage/brand/map/map_bg_pc.jpg);
+    background-image: url(/img/subpage/menu/bg/menu_bg_pc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -159,75 +159,128 @@ nav{
     font-weight: 800;
     color: black;
 }
-.brand_link li:nth-of-type(3) > a{
+.brand_link li:nth-of-type(2) > a{
     color: var(--primary1);
     position: relative;
 }
-.brand_link li:nth-of-type(3) > a:before{
+.brand_link li:nth-of-type(2) > a:before{
     position: absolute;
     content: '';
-    width: 7rem;
+    width: 6.2rem;
     height: 2px;
     top: 6.9rem;
-    left: 4rem;
+    left: 3.6rem;
     background-color: var(--primary1);
 }
 /* ====================================
     ======= sec1 ======    
 ==================================== */
+
+/* ====================================
+    ======= sec2 ======    
+==================================== */
 .sec2{
     width: 100%;
-    height: 100%;
-    margin-bottom: 8rem;
+    margin-bottom: 21rem;
 }
-.sec2_title{
-    font-size: 14rem;
+.side_menu{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 40px;
+}
+.front{
+    transition: all .7s;
+}
+.front > img{
+    width: 100%;
+}
+.front_ko{
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 4.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.4rem;
+}
+.front_en{
+    text-align: center;
+    font-size: 2rem;
     font-family: Mont;
     color: var(--primary1);
-    margin-bottom: 8rem;
 }
-.sec2_bottom{
-    justify-content: space-between;
-    align-items: center;
+.back{
+    width: 100%;
+    text-align: center;
+    top: 35%;
+    transform: translateY(-60%);
+    opacity: 0;
+    transition: all .7s;
 }
-.sec2_content{
-    height: 100%;
-    font-size: 6rem;
-    font-weight: 900;
-    line-height: 1.15;
+.back_title{
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 4.4rem;
+    color: var(--primary1);
 }
-.sec2_left{
-    width: 40%;
-}
-.sec2_right{
-    width: 60%;
-    height: 100%;
-    margin-top: 3rem;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-.box_title{
-    font-size: 4rem;
-    font-family: Mont;
-    margin-bottom: 2.5rem;
-    position: relative;
-}
-.box_title:before{
-    position: absolute;
-    content: '';
-    top: -3rem;
-    left: 0rem;
-    width: 3.5rem;
-    height: 0.3rem;
-    background-color: black;
-}
-.box_content{
-    line-height: 1.6;
+.back_content{
+    color: #242424;
+    text-align: center;
     font-size: 2rem;
-    font-weight: 400;
-    color: #4b4b4b;
-    letter-spacing: -0.02em;
+    font-weight: 500;
+    line-height: 2.8rem;
+    padding: 1.6rem 0;
 }
+.back_price{
+    width: 100%;
+    height: 3rem;
+    justify-content: center;
+    column-gap: 2rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.m span:first-child{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: Mont;
+    color: #fff;
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 50%;
+    background-color: var(--primary1);
+    margin-right: 0.8rem;
+}
+.m  span:last-child{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.l span:first-child{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: Mont;
+    color: #fff;
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 50%;
+    background-color: #FFA108;
+    margin-right: 0.8rem;
+}
+.l  span:last-child{
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* ====================================
+    ======= sec2 ======    
+==================================== */
+
+
 /* ====================================
 ======= footer ======    
 ==================================== */
@@ -286,9 +339,6 @@ div.footer_link span:first-child a{
 ======= footer ======    
 ==================================== */
 
-/* ====================================
-    ======= fixed_button ======    
-==================================== */
 .fixed_button{
     position: fixed;
     z-index: 999;
@@ -296,6 +346,7 @@ div.footer_link span:first-child a{
     right: 6rem;
     opacity: 0;
     transition: all 0.5s;
+    cursor: pointer;
 }
 .topbutton, .inquirybutton{
     width: 10rem;
