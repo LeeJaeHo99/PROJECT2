@@ -9,6 +9,31 @@
 .remove{
     display: none;
 }
+.popup {
+	position: fixed;
+	width: min(31%, 550px);
+	padding: 3% 2%;
+	font-size: 1.8rem;
+	line-height: 1.75;
+	background-color: #fff;
+	border-radius: 3%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    opacity: .9;
+	z-index: 99999999;
+	top: 13%;
+	left: 34%;
+}
+.popup > span {
+	user-select: none;
+	position: absolute;
+	background-color: var(--primary1);
+	color: #fff;
+	border-radius: 5%;
+	padding: 0% 2%;
+	right: 6%;
+	bottom: 10%;
+	cursor: pointer;
+}
 .black_button{
     width: 30.6rem;
     height: 5.6rem;

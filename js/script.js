@@ -12,6 +12,10 @@ let idx2 = slideText.index($('.show'));
 
 /* ===== 변수  ===== */
 
+//팝업창 닫기
+$('.close').on('click', function(){
+    $('.popup').fadeOut(800);
+})
 
 ///배너 fadeinout
 function slideFn(){
@@ -84,7 +88,7 @@ $(window).scroll(function(){
     }
 
     //marguee
-    if(height >= 2200 && height <=3500){
+    if(height >= 2100 && height <=3500){
         $('.marquee_box').eq(0).css('opacity', 1);
     }else{
         $('.marquee_box').eq(0).css('opacity', 0);
