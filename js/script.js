@@ -12,6 +12,7 @@ let idx2 = slideText.index($('.show'));
 
 /* ===== 변수  ===== */
 
+
 //팝업창 닫기
 $('.close').on('click', function(){
     $('.popup').fadeOut(800);
