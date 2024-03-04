@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fred Pizza</title>
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/franchise/franchise.css">
     <link rel="shortcut icon" href="./img/logo/favicon.png" type="image/x-icon">
 </head>
@@ -12,7 +12,7 @@
     <div class="wrap">
         <div class="fixed_button">
             <div class="topbutton df">
-                <img src="./img/mainpage/fixed/arrow_top_white.png" alt="">
+                <img src="/img/mainpage/fixed/arrow_top_white.png" alt="top">
                 <span>TOP</span>
             </div> <!-- topbutton -->
             <div class="inquirybutton df">
@@ -23,9 +23,9 @@
         <header>
             <div class="inner">
                 <div class="gnb df">
-                    <div class="logo pr">
-                        <a href="/index.html"><img class="red_logo pa" src="/img/logo/red_logo.png" alt="logo"></a>
-                        <h1 class="indent_logo">FREDPIZZA</h1>
+                    <div class="logo">
+                        <a href="/index.html"><img class="red_logo" src="/img/logo/red_logo.png" alt="logo"></a>
+                        <h1 class="indent_logo remove">FRED PIZZA</h1>
                     </div> <!-- logo -->
                     <nav>
                         <ul class="dep1 df">
@@ -101,24 +101,25 @@
                             </li> <!-- 창업 -->
                         </ul> <!-- dep1 -->
                     </nav> <!-- nav -->
-                </div> <!-- gnb -->
+                </div>
             </div> <!-- header inner -->
         </header> <!-- header -->
         <main>
-            <section class="main">
+            <section class="sec1">
+                <div class="sec1_bg">
+                    <div class="sec1_title">Franchise</div>
+                </div> <!-- sec1_mainbanner -->
                 <div class="inner">
-                    <img src="/img/subpage/franchise/bg/startup_bg_pc.jpg">
-                    <div class="franchise_title">Franchise</div>
-                    <div class="franchise_link">
-                        <ul>
+                    <div class="brand_link">
+                        <ul class="df">
                             <li><a href="/html/franchise/franchise.html">창업경쟁력</a></li>
                             <li><a href="/html/franchise/franchise.html">창업안내</a></li>
                             <li><a href="/html/franchise/franchise.html">창업비용 및 절차</a></li>
                             <li><a href="/html/franchise/franchise.html">가맹 FAQ</a></li>
                             <li><a href="/html/franchise/franchise.html">창업문의</a></li>
                         </ul>
-                    </div> <!-- franchise_link -->
-                    <div class="franchise_fixed">
+                    </div> <!-- brand_link -->
+                    <div class="franchise_fixed remove">
                         <div class="nav_fixed">
                             <ul>
                                 <li><a href="/html/franchise/franchise.html">창업경쟁력</a></li>
@@ -167,16 +168,16 @@
                             </div> <!-- right --> 
                         </div> <!-- counseling -->
                     </div> <!-- fixed -->
-                </div> <!-- main_inner -->
-            </section> <!-- main -->
-            <section class="competitiveness">
-                <div class="inner">
-                    <section class="competitiveness_sec1">
-                        <div class="sec1_title">
+                </div> <!-- sec1_inner -->
+            </section> <!-- sec1 -->
+            <section class="competitiveness" id="competitiveness">
+                <section class="competitiveness_sec1 cpt_sec1_bg">
+                    <div class="inner">
+                        <div class="title">
                             최고 월매출 1억!<br>
                             거짓 없는 매출, 프레드 피자
                         </div> <!-- title -->
-                        <div class="sec1_content">
+                        <div class="content">
                             10평 남짓한 소형 매장에서 억대연봉!<br>
                             프레드 피자에서는 가능합니다!
                         </div> <!-- content -->
@@ -255,13 +256,15 @@
                             </li> <!-- 8 -->
                         </ul> <!-- rank -->
                         <div class="explain">*최근 1년간 매출 기준</div> <!-- explain -->
-                    </section> <!-- sec1 -->
-                    <section class="competitiveness_sec2">
-                        <div class="sec2_title">최고 연매출 14억!</div>
-                        <div class="sec2_content_top">동종 업계 브랜드들을 제치고 가장 높은 매출액 달성!</div>
-                        <div class="sec2_content_bottom">* 매출액 상위 브랜드 선정! *</div>
-                        <div class="sec2_box">
-                            <div class="sec2_box_left">
+                    </div> <!-- cpt_sec1_inner  -->
+                </section> <!-- sec1 -->
+                <section class="competitiveness_sec2 cpt_sec2_bg">
+                    <div class="inner">
+                        <div class="title">최고 연매출 14억!</div>
+                        <div class="cpt_sec2_content_top">동종 업계 브랜드들을 제치고 가장 높은 매출액 달성!</div>
+                        <div class="cpt_sec2_content_bottom">* 매출액 상위 브랜드 선정! *</div>
+                        <div class="cpt_sec2_box">
+                            <div class="cpt_sec2_box_left">
                                 <img src="/project2/img/subpage/franchise/sec2/sec2_leaf.png" alt="">
                                 <img src="/project2/img/subpage/franchise/sec2/sec2_star.svg" alt="">
                                 <div class="sec2_box_title">가맹점 최고 일매출</div>
@@ -274,11 +277,13 @@
                                 <div class="sec2_box_num">1,417,304,300원</div>
                             </div> <!-- right -->
                         </div>
-                    </section> <!-- sec2 -->
-                    <section class="competitiveness_sec3">
-                        <div class="sec3_title">1,400만원 창업 비용 지원!</div>
-                        <div class="sec3_content">오직 180호점까지만 파격적인 창업 혜택 지원!</div>
-                        <div class="sec3_box">
+                    </div> <!-- cpt_sec2_inner -->
+                </section> <!-- sec2 -->
+                <section class="competitiveness_sec3 cpt_sec3_bg">
+                    <div class="inner">
+                        <div class="title">1,400만원 창업 비용 지원!</div>
+                        <div class="content">오직 180호점까지만 파격적인 창업 혜택 지원!</div>
+                        <div class="cpt_sec3_box">
                             <div class="sec3_box_left">
                                 <img src="/project2/img/subpage/franchise/sec3/sec3_icon1.png" alt="">
                                 <div class="sec3_box_title">로열티 100% 면제!</div>
@@ -304,12 +309,14 @@
                                 </div>
                             </div> <!-- right -->
                         </div> <!-- box -->
-                    </section> <!-- sec3 -->
-                    <section class="competitiveness_sec4">
-                        <div class="sec4_title">플러스 혜택 지원 이벤트!</div>
-                        <div class="sec4_content">혜택에 혜택을 더하다!</div>
-                        <div class="sec4_box">
-                            <div class="sec4_box1">
+                    </div> <!-- cpt_sec3_inner -->
+                </section> <!-- sec3 -->
+                <section class="competitiveness_sec4">
+                    <div class="inner">
+                        <div class="title">플러스 혜택 지원 이벤트!</div>
+                        <div class="content">혜택에 혜택을 더하다!</div>
+                        <div class="cpt_sec4_box">
+                            <div class="cpt_sec4_box1">
                                 <div class="deco">
                                     <img src="/project2/img/subpage/franchise/competitiveness/sec4/sec4_flower.svg" alt="">
                                     <span>1</span>
@@ -320,7 +327,7 @@
                                     총 300만원 지원!
                                 </div>
                             </div> <!-- box1 -->
-                            <div class="sec4_box2">
+                            <div class="cpt_sec4_box2">
                                 <div class="deco">
                                     <img src="/project2/img/subpage/franchise/competitiveness/sec4/sec4_flower.svg" alt="">
                                     <span>2</span>
@@ -331,7 +338,7 @@
                                     재료비 최대 1,000만원 지원!
                                 </div>
                             </div> <!-- box2 -->
-                            <div class="sec4_box3">
+                            <div class="cpt_sec4_box3">
                                 <div class="deco">
                                     <img src="/project2/img/subpage/franchise/competitiveness/sec4/sec4_flower.svg" alt="">
                                     <span>3</span>
@@ -342,7 +349,7 @@
                                     광고 지원! (SNS/당근마켓/블로그)
                                 </div>
                             </div> <!-- box3 -->
-                            <div class="sec4_box4">
+                            <div class="cpt_sec4_box4">
                                 <div class="deco">
                                     <img src="/project2/img/subpage/franchise/competitiveness/sec4/sec4_flower.svg" alt="">
                                     <span>4</span>
@@ -353,7 +360,7 @@
                                     비용 발생되는 앱 관리를 평생 무료로!
                                 </div>
                             </div> <!-- box4 -->
-                            <div class="sec4_box5">
+                            <div class="cpt_sec4_box5">
                                 <div class="deco">
                                     <img src="/project2/img/subpage/franchise/competitiveness/sec4/sec4_flower.svg" alt="">
                                     <span>5</span>
@@ -365,10 +372,22 @@
                                 </div>
                             </div> <!-- box5 -->
                         </div> <!-- box -->
-                    </section> <!-- sec4 -->
-                    <section class="competitiveness_sec5">
-                        <div class="sec5_title"></div>
-                        <div class="sec5_content"></div>
+                    </div> <!-- cpt_sec4_inner -->
+                </section> <!-- sec4 -->
+                <section class="competitiveness_sec5">
+                    <div class="inner">
+                        <div class="title">
+                            프레드 피자 창업 비용은
+                            <br>
+                            단 2,000만원대!
+                        </div>
+                        <div class="content">
+                            프랜차이즈 창업은 비싸다?
+                            <br>
+                            본사 마진을 최소화한 업계 최저 창업 비용!
+                            <br>
+                            직접 비교해보세요!
+                        </div>
                         <div class="sec5_box">
                             <div class="sec5_box_left">
                                 <div class="sec5_box_top">
@@ -397,11 +416,13 @@
                                 </div> <!-- bottom -->
                             </div> <!-- right -->
                         </div> <!-- box -->
-                    </section> <!-- sec5 -->
-                    <section class="competitiveness_sec6">
+                    </div> <!-- cpt_sec5_inner  -->
+                </section> <!-- sec5 -->
+                <section class="competitiveness_sec6">
+                    <div class="inner">
                         <div class="sec6_top">
-                            <div class="sec6_title">업계 최대 수준의 수익률!</div>
-                            <div class="sec6_content">이제는 남는 장사를 해야할 때!</div>
+                            <div class="title">업계 최대 수준의 수익률!</div>
+                            <div class="content">이제는 남는 장사를 해야할 때!</div>
                         </div> <!-- top -->
                         <div class="sec6_bottom">
                             <div class="sec6_bottom_left">
@@ -460,14 +481,16 @@
                                 </table> <!-- table -->
                             </div> <!-- right -->
                         </div> <!-- bottom -->
-                    </section> <!-- sec6 -->
-                    <section class="competitiveness_sec7">
+                    </div> <!-- cpt_sec6_inner  -->
+                </section> <!-- sec6 -->
+                <section class="competitiveness_sec7">
+                    <div class="inner">
                         <div class="sec7_top">
-                            <div class="sec7_title">
+                            <div class="title">
                                 단 3개월만에<br>
                                 창업투자비용을 회수하세요!
                             </div> <!-- title -->
-                            <div class="sec7_content">
+                            <div class="content">
                                 타사 가맹점 대비 더 높은 매출액, 소형 매장으로 더 낮은 임대료,<br>
                                 높은 수익률이 점주님들의 성공창업을 이끌어갑니다!
                             </div> <!-- content -->
@@ -503,8 +526,10 @@
                                 </div> <!-- box6 -->
                             </div> <!-- box -->
                         </div> <!-- bottom -->
-                    </section> <!-- sec7 -->
-                    <section class="competitiveness_sec8">
+                    </div> <!-- cpt_sec7_inner  -->
+                </section> <!-- sec7 -->
+                <section class="competitiveness_sec8">
+                    <div class="inner">
                         <div class="sec8_top">
                             <div class="sec8_title">
                                 배달형 소형 매장도<br>
@@ -523,6 +548,7 @@
                                 </div> <!-- box1 -->
                                 <div class="sec8_box">
                                     <div class="sec8_box_top_title">타 피자 브랜드</div>
+                                    <img src="/img/subpage/franchise/competitiveness/sec8/sec8_img2.jpg" alt="">
                                 </div> <!-- box2 -->
                             </div> <!-- bottom_top -->
                             <div class="sec8_bottom_bottom">
@@ -538,9 +564,12 @@
                                 </div> <!-- box4 -->
                             </div> <!-- bottom_bottom -->
                         </div> <!-- bottom -->
-                    </section> <!-- sec8 -->
-                </div> <!-- competitiveness_inner -->
+                    </div> 
+                </section> <!-- sec8 -->
             </section> <!-- competitiveness -->
+
+            <!-- !!여기까지 수정함!! -->
+        
             <section class="announcement">
                 <div class="inner">
                     <section class="announcement_sec1">

@@ -323,6 +323,7 @@ div.footer_link span:first-child a{
     right: 6rem;
     opacity: 0;
     transition: all 0.5s;
+    cursor: pointer;
 }
 .topbutton, .inquirybutton{
     width: 10rem;
