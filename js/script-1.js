@@ -1,3 +1,37 @@
+// //팝업창 닫기
+// document.querySelector('.close').addEventListener('click', () => {
+//     document.querySelector('.popup').style.display = 'none';
+// })
+
+// //베너 fadeinout
+// const slide = document.querySelectorAll('.slide1, .slide2');
+// let idx = 0;
+
+// //배너 텍스트 fadeinout
+// const slideText = document.querySelectorAll('.header_bg_text > div')
+// let idx2 = slideText.indexOf(document.querySelector('.show'));
+
+// function slideFn(){
+//     slide.forEach(element => element.classList.remove('on'))
+//     slide[idx].classList.add('on');
+//     idx++;
+//     if(idx > slide.length){
+//         idx = 0;
+//     }
+// }
+// setInterval(() => {
+//     slideFn();
+// }, 4000);
+
+
+// //배너 텍스트 fadeinout
+// function textFn(){
+//     slideText.forEach(element => element.classList.remove('show'));
+//     idx2 = (idx2 + 1) % slideText.length;
+//     slideText[idx2].classList.add('show');
+// }
+// setInterval(textFn, 4000);
+
 // 팝업창 닫기
 $('.close').on('click', function(){
     $('.popup').fadeOut(800);
@@ -25,23 +59,11 @@ setInterval(() => {
 }, 4000);
 
 
-//배너 텍스트 fadeinout
-function textFn(){
-    slideText.removeClass('show');
-    idx2 = (idx2 + 1) % slideText.length;
-    slideText.eq(idx2).addClass('show');
-}
-setInterval(textFn, 4000);
 
 //스크롤 애니메이션
-$(window).scroll(function(){
-    let height = $(window).scrollTop();
-    console.log(`스크롤 높이 확인 : ` + height);
-
-    //gnb
-    // if(height > 1100){
-    //     $('.red_logo').show();
-    // }
+window.onscroll = function() {
+    let height = window.pageYOffset;
+    console.log(`스크롤 높이 : ` + height);
 
     //sec1 타이틀
     if(height >= 300 && height <= 1500){
@@ -185,7 +207,7 @@ $(window).scroll(function(){
             'transform'  : 'translate(50%)',
     });
     }
-});
+};
 
 //탑버튼
 $('.topbutton').on('click', function(){
