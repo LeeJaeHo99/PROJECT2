@@ -22,6 +22,7 @@
 	z-index: 99999999;
 	top: 13%;
 	left: 34%;
+    overflow: hidden;
     transition: all 1s;
 }
 .popup > span {

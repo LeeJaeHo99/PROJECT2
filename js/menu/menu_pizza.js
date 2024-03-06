@@ -1,23 +1,32 @@
-$(window).scroll(function(){
-    let height = $(window).scrollTop();
-    console.log(`스크롤 높이 확인 : ` + height);
+window.onscroll = function(){
+    let height = window.pageYOffset;
+    console.log(`스크롤 높이 : ` + height);
+
+    /* ===== 변수 ===== */
+    const fixedBtn = document.querySelector('.fixed_button');
+    /* ===== 변수 ===== */
 
     //fixed_button
-    if(height >= 1){
-        $('.fixed_button').css({
-            'opacity' : 1,
-            'transform' : 'translate(-50%)',
-    });
+    if(height >= 500){
+        fixedBtn.style.opacity = 1;
+        fixedBtn.style.transform = 'translate(-50%)';
     }else{
-        $('.fixed_button').css({
-            'opacity' : 0,
-            'transform'  : 'translate(50%)',
-    });
+        fixedBtn.style.opacity = 0;
+        fixedBtn.style.transform = 'translate(50%)';
     }
-});
+}
+
+/*
+* todo 피자 메뉴 자바스크립트 고치기
+*/
+
 
 //피자 호버
 //쿼터치즈벅피자
+let qcp = document.querySelector('.pizza_menu > .qcp');
+('.pizza_menu > .qcp').addEventListener('click', function(){
+    ('.pizza_menu > .qcp > .front').style
+})
 $('.pizza_menu > .qcp').on('mouseenter', function(){
     $('.pizza_menu > .qcp > .front').css({
         'opacity' : 0,

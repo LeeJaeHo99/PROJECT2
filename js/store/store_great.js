@@ -1,26 +1,27 @@
-$(window).scroll(function(){
-    let height = $(window).scrollTop();
-    console.log(`스크롤 높이 확인 : ` + height);
+window.onscroll = function(){
+    let height = window.pageYOffset;
+    console.log(`스크롤 높이 : ` + height);
 
-    //fixed_button
+    /* ===== 변수 ===== */
+    const fixedBtn = document.querySelector('.fixed_button');
+    /* ===== 변수 ===== */
     if(height >= 1){
-        $('.fixed_button').css({
-            'opacity' : 1,
-            'transform' : 'translate(-50%)',
-    });
+        fixedBtn.style.opacity = 1;
+        fixedBtn.style.transform = 'translate(-50%)';
     }else{
-        $('.fixed_button').css({
-            'opacity' : 0,
-            'transform'  : 'translate(50%)',
-    });
+        fixedBtn.style.opacity = 0;
+        fixedBtn.style.transform = 'translate(50%)';
     }
-});
+};
 
 
 //탑버튼
-$('.topbutton').on('click', function(){
+/* ===== 변수 ===== */
+const topBtn = document.querySelector('.topbutton');
+/* ===== 변수 ===== */
+topBtn.addEventListener('click', function(){
     window.scroll({
-        'top' : 0,
-        'behavior' : 'smooth',
+        top : 0,
+        behavior : 'smooth',
     })
 });
