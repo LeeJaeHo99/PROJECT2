@@ -67,8 +67,30 @@ function textFn(){
     slideText.eq(idx2).addClass('show');
 }
 setInterval(textFn, 4000);
+/* ==========  ========== *//* ==========  ========== *//* ==========  ========== *//* ==========  ========== *//* ==========  ========== *//* ==========  ========== */
+//스티키 메뉴
 
+const gnb = document.querySelector('.gnb');
+let gnbStickyContainer = document.createElement('div');
+gnbStickyContainer.className = 'gnb_sticky';
+//gnb 복제
 
+function clone(){
+    const gnbClone = gnb.cloneNode(true);
+    gnbStickyContainer.appendChild(gnbClone);
+    document.querySelector('body').appendChild(gnbStickyContainer);
+}
+clone();
+//gnb 복제 후 할당
+
+const gnbH = gnb.offsetTop + gnb.offsetHeight;
+console.log('gnbH: ', gnbH);
+//높이 구하기
+
+document.querySelector('.gnb_sticky > .gnb > .logo > a > img').src = './img/logo/red_logo.png';
+//todo 여기 고쳐야함
+
+/* ==========  ========== *//* ==========  ========== *//* ==========  ========== *//* ==========  ========== *//* ==========  ========== *//* ==========  ========== */
 //스크롤 애니메이션
 window.onscroll = function() {
     let height = window.pageYOffset;
@@ -90,6 +112,13 @@ window.onscroll = function() {
     const sec7Right = document.querySelector('.sec7_right');
     const fixedBtn = document.querySelector('.fixed_button');
     /* ===== 변수 ===== */
+
+    //스티키 메뉴
+    if(height >= 1100){
+        gnbStickyContainer.style.top = 0;
+    }else{
+        gnbStickyContainer.style.top = '-10%';
+    }
 
     //sec1 타이틀
     if(height >= 300 && height <= 1500){
@@ -207,6 +236,7 @@ window.onscroll = function() {
 /* ===== 변수 ===== */
 const topBtn = document.querySelector('.topbutton');
 /* ===== 변수 ===== */
+
 topBtn.addEventListener('click', function(){
     window.scroll({
         top : 0,

@@ -1,0 +1,22 @@
+.ac_dep1{
+    width: 50rem;
+    border: 1px solid blue;
+}
+.ac_dep1 > li:not(.ac_dep1_top) > a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 2rem 1.6rem 2rem 4rem;
+}
+.ac_dep2 > li > a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 1.2rem 1.6rem 1.2rem 4rem;
+}
+.x{
+    width: 2rem;
+}
+.top{
+    width: 2rem;
+}

@@ -119,8 +119,8 @@ header{
 
 /* ===== bg ===== */
 
-/* ===== gnb_white ===== */
-.gnb_white{
+/* ===== gnb ===== */
+.gnb{
     width: 100%;
     height: 8rem;
     align-items: center;
@@ -146,7 +146,6 @@ nav{
     height: 100%;
 }
 .dep1{
-    position: relative;
     height: 100%;
     text-align: center;
     align-items: center;
@@ -154,6 +153,7 @@ nav{
     column-gap: 2rem;
 }
 .dep1 > li{
+    position: relative;
     height: 100%;
     line-height: 8rem;
     display: block;
@@ -169,6 +169,7 @@ nav{
 }
 .dep2{
     position: absolute;
+    left: -25%;
     z-index: 99;
     height: 0;
     overflow: hidden;
@@ -179,6 +180,14 @@ nav{
     border-radius: 3%;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
 }
+.dep2_2,
+.dep2_4{
+    left: -35%;
+}
+.dep2_3,
+.dep2_5{
+    left: -32%;
+}
 .dep2 > li a{
     color: black;
     font-size: 1.6rem;
@@ -188,40 +197,58 @@ nav{
 .dep2 li:hover a{
     color: var(--primary1);
 }
-.dep2_1{
-    left: 33rem;
-}
 .dep1 li:hover .dep2_1{
     height: 229%;
-}
-.dep2_2{
-    left: 45rem;
 }
 .dep1 li:hover .dep2_2{
     height: 229%;
 }
-.dep2_3{
-    left: 56rem;
-}
 .dep1 li:hover .dep2_3{
     height: 151%;
 }
-.dep2_4{
-    left: 68rem;
-}
 .dep1 li:hover .dep2_4{
     height: 151%;
-}
-.dep2_5{
-    left: 78.5rem;
 }
 .dep1 li:hover .dep2_5{
     height: 380%;
 }
 /* ===== nav ===== */
 
-/* ===== accordian ===== */
+/* ===== gnb_sticky ===== */
+.gnb_sticky{
+    position: fixed;
+    z-index: 9;
+    top: -10%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    transition: all 0.5s;
 
+}
+.gnb_sticky .logo{
+    margin-left: 25rem;
+}
+.gnb_sticky nav{
+    margin-right: 30rem;
+}
+.gnb_sticky .dep1_li > a{
+    color: black;
+}
+
+.gnb_sticky .dep2_1{
+    left: 39%;
+}
+.gnb_sticky .dep2_1{
+    left: 39%;
+}
+/* ===== gnb_sticky ===== */
+
+
+/* ===== accordian ===== */
+.ac_dep1{
+    width: 36rem;
+    height: 100vh;
+}
 /* ===== accordian ===== */
 
 /* ===== header_bg_text ===== */
@@ -230,7 +257,7 @@ nav{
 }
 .header_bg_text{
     width: 100%;
-    margin-top: 7rem;
+    margin-top: 17rem;
     position: relative;
 }
 .bg_textbox_1, .bg_textbox_2{
@@ -332,21 +359,6 @@ nav{
     opacity: 0;
     transition: all 1.5s;
 }
-
-/* ===== gnb_red ===== */
-.gnb_red{
-    /* display: none; */
-    position: sticky;
-    background-color: white;
-}
-div.gnb_red > nav a{
-    color: black;
-}
-.red_logo{
-    width: 22rem;
-    top: 1.5rem;
-}
-/* ===== gnb_red ===== */
 
 /* ===== sec1_pizza_wrap ===== */
 .sec1_pizza_wrap{
