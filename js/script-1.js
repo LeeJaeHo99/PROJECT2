@@ -4,39 +4,6 @@ document.querySelector('.close').addEventListener('click', () => {
 })
 
 
-// //베너 이미지 fadeinout
-// const slide = document.querySelectorAll('.slide1, .slide2');
-// let idx = 0;
-
-// function slideFn(){
-//     slide.forEach((slide) => {
-//         slide.classList.remove('on')
-//         slide[idx].classList.add('on');
-//         idx++;
-//         if(idx > slide.length){
-//             idx = 0;
-//         }
-//     });
-// }
-// setInterval(() => {
-//     slideFn();
-// }, 4000);
-
-
-// // 배너 텍스트 fadeinout
-// const slideText = document.querySelectorAll('.header_bg_text > div');
-// // let idx2 = slideText.indexOf(document.querySelector('.show'));
-// let idx2 = Array.from(slideText).findIndex(item => item.classList.contains('show'));
-
-// function textFn(){
-//     slideText.forEach((text) => {
-//         text.classList.remove('show')   
-//         idx2 = (idx2 + 1) % slideText.length;
-//         slideText[idx2].classList.add('show');
-//     });
-// }
-// setInterval(textFn, 4000);
-
 
 //베너 fadeinout
 const slide = $('slide > div[class*="slide1"], div[class*="slide2"]');
@@ -67,30 +34,24 @@ function textFn(){
     slideText.eq(idx2).addClass('show');
 }
 setInterval(textFn, 4000);
-/* ==========  ========== *//* ==========  ========== *//* ==========  ========== *//* ==========  ========== *//* ==========  ========== *//* ==========  ========== */
-//스티키 메뉴
 
-const gnb = document.querySelector('.gnb');
+/* ========== 스티키 메뉴 ========== */
+const gnb = document.querySelector('.gnb.df');
+const gnbH = gnb.offsetTop + gnb.offsetHeight;
 let gnbStickyContainer = document.createElement('div');
 gnbStickyContainer.className = 'gnb_sticky';
 //gnb 복제
 
-function clone(){
-    const gnbClone = gnb.cloneNode(true);
-    gnbStickyContainer.appendChild(gnbClone);
-    document.querySelector('body').appendChild(gnbStickyContainer);
-}
-clone();
+const cloneEl = () => {
+	const gnbClone = gnb.cloneNode(true);
+	gnbStickyContainer.appendChild(gnbClone);
+	document.querySelector('body').appendChild(gnbStickyContainer);
+	document.querySelector('.gnb_sticky .logo  img').setAttribute('src', './img/logo/red_logo.png');
+};
+cloneEl();
 //gnb 복제 후 할당
 
-const gnbH = gnb.offsetTop + gnb.offsetHeight;
-console.log('gnbH: ', gnbH);
-//높이 구하기
 
-document.querySelector('.gnb_sticky > .gnb > .logo > a > img').src = './img/logo/red_logo.png';
-//todo 여기 고쳐야함
-
-/* ==========  ========== *//* ==========  ========== *//* ==========  ========== *//* ==========  ========== *//* ==========  ========== *//* ==========  ========== */
 //스크롤 애니메이션
 window.onscroll = function() {
     let height = window.pageYOffset;
@@ -116,8 +77,10 @@ window.onscroll = function() {
     //스티키 메뉴
     if(height >= 1100){
         gnbStickyContainer.style.top = 0;
+        gnbStickyContainer.style.display = 'block';
     }else{
         gnbStickyContainer.style.top = '-10%';
+        gnbStickyContainer.style.display = 'none';
     }
 
     //sec1 타이틀

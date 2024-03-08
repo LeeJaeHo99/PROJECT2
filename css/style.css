@@ -223,6 +223,7 @@ nav{
     right: 0;
     background-color: #fff;
     transition: all 0.5s;
+    max-height: 80px;
 
 }
 .gnb_sticky .logo{
@@ -234,12 +235,13 @@ nav{
 .gnb_sticky .dep1_li > a{
     color: black;
 }
-
-.gnb_sticky .dep2_1{
-    left: 39%;
+.gnb_sticky .dep2_2,
+.gnb_sticky .dep2_4{
+    left: -35%;
 }
-.gnb_sticky .dep2_1{
-    left: 39%;
+.gnb_sticky .dep2_3,
+.gnb_sticky .dep2_5{
+    left: -32%;
 }
 /* ===== gnb_sticky ===== */
 
