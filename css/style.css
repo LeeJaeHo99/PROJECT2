@@ -219,7 +219,7 @@ nav{
 .gnb_sticky{
     position: fixed;
     z-index: 9;
-    top: -10%;
+    top: -50%;
     left: 0;
     right: 0;
     background-color: #fff;

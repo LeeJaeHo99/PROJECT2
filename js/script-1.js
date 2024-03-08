@@ -37,7 +37,6 @@ setInterval(textFn, 4000);
 
 /* ========== 스티키 메뉴 ========== */
 const gnb = document.querySelector('.gnb.df');
-const gnbH = gnb.offsetTop + gnb.offsetHeight;
 let gnbStickyContainer = document.createElement('div');
 gnbStickyContainer.className = 'gnb_sticky';
 //gnb 복제
@@ -78,10 +77,10 @@ window.onscroll = function() {
     //스티키 메뉴
     if(height >= 1100){
         gnbStickyContainer.style.top = 0;
-        gnbStickyContainer.style.display = 'block';
+        gnbStickyContainer.style.opacity = 1;
     }else{
-        gnbStickyContainer.style.top = '-10%';
-        gnbStickyContainer.style.display = 'none';
+        gnbStickyContainer.style.top = '-50%';
+        gnbStickyContainer.style.opacity = 0;
     }
 
     //sec1 타이틀
