@@ -46,7 +46,8 @@ const cloneEl = () => {
 	const gnbClone = gnb.cloneNode(true);
 	gnbStickyContainer.appendChild(gnbClone);
 	document.querySelector('body').appendChild(gnbStickyContainer);
-	document.querySelector('.gnb_sticky .logo  img').setAttribute('src', './img/logo/red_logo.png');
+	document.querySelector('.gnb_sticky .logo img').setAttribute('src', './img/logo/red_logo.png');
+    document.querySelector('.gnb_sticky .logo img').className = 'red_logo';
 };
 cloneEl();
 //gnb 복제 후 할당

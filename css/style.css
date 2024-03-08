@@ -130,7 +130,8 @@ header{
 .logo{
     width: 30%;
 
-    & .white_logo{
+    & .white_logo,
+    .red_logo{
         width: 22rem;
         top: -1.5rem;
     }
@@ -259,7 +260,8 @@ nav{
 }
 .header_bg_text{
     width: 100%;
-    margin-top: 17rem;
+    /* margin-top: 17rem; */
+    margin-top: 9rem;
     position: relative;
 }
 .bg_textbox_1, .bg_textbox_2{
@@ -376,8 +378,6 @@ nav{
 }
 .sec1_pizza img{
     transition: all .3s;
-    width: 40rem;
-    height: 40rem;
 }
 .sec1_pizza img:hover{
     transform: scale(1.04);
@@ -529,10 +529,9 @@ iframe{
 }
 /* =====  marquee ===== */
 .marquee_box{
-    width: 146%;
+    width: 100%;
     position: absolute;
     z-index: -1;
-    left: -30rem;
     padding-top: 45rem;
     opacity: 0;
     overflow: hidden;
@@ -887,6 +886,7 @@ iframe{
 }
 .sec7_link a{
     color: black;
+    white-space: nowrap;
 }
 .sec7_date{
     width: 20%;
