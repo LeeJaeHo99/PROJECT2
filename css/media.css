@@ -116,12 +116,6 @@
         top: 37.5rem;
     }
     /* sec6 */
-
-    /* sec7 */
-    .sec7 .link1:before, .link2:before {
-        width: 53rem;
-    /* sec7 */
-    }
 }
 /* ========== 1350 ========== */
 
@@ -141,5 +135,189 @@
 /* ========== 1300 ========== */
 
 
+/* ========== 1250 ========== */
+@media screen and (max-width: 1250px){
+    /* sec4 */
+    .sec4_left img {
+        max-width: 85%;
+        margin-left: 3rem;
+    }
+    /* sec4 */
+}
+/* ========== 1250 ========== */
 
-/* todo 1200 부터 해야함 */
+
+/* ========== 1200 ========== */
+@media screen and (max-width: 1200px){
+    /* header */
+    .logo{
+        margin-left: 5rem;
+    }
+    .gnb_sticky .logo {
+        margin-left: 17rem;
+    }
+    .gnb_sticky nav {
+        margin-right: 5rem;
+    }
+    .dep1{
+        margin-right: 5rem;
+    }
+    .header_bg_text {
+        margin-left: 5rem;
+        width: 80%;
+    }
+    .slide1{
+        background-position: center center;
+    }
+    .slide2{
+        background-position: center center;
+    }
+    /* header */
+
+    /* sec1 */
+    .swiper-button-prev, .swiper-button-next {
+        top: 18.5rem;
+    }
+    .new::before, .best::before{
+        top: 7rem;
+        right: 4.2rem;
+    }
+    /* sec1 */
+
+    /* sec4 */
+    .sec4_left img{
+        width: 80%;
+        margin-left: 6rem;
+    }
+    .sec4_right_textbox{
+        margin-right: 5rem;
+    }
+    .sec4_right_textbox_title {
+        font-size: 5rem;
+    }
+    .sec4_right_textbox_content {
+        font-size: 1.8rem;
+    }
+    /* sec4 */
+
+    /* sec7 */
+    .sec7_left, .sec7_right {
+        width: 45rem;
+    }
+    /* sec7 */
+
+    /* footer */
+    footer .inner{
+        max-width: 1000px;
+    }
+    /* footer */
+}
+/* ========== 1200 ========== */
+
+/* ========== 1100 ========== */
+@media screen and (max-width: 1100px){
+    /* header */
+    .header_bg_text {
+        margin-top: 30rem;
+    }
+    .header_slide_control div.control_bar_wrap {
+        width: 90%;
+    }
+    /* header */
+
+    /* sec1 */
+    /* .swiper-slide {
+        width: 29.5rem;
+    } */
+    /* sec1 */
+
+    /* sec2 */
+    .sec2_bg {
+        height: 65vh;
+    }
+    .sec2_title {
+        top: -45rem;
+        left: 26rem;
+    }
+    iframe {
+        top: -20rem;
+    }
+    .marquee_box {
+        padding-top: 60rem;
+    }
+    .txt {
+        font-size: 14rem;
+    }
+    /* sec2 */
+
+    /* sec5 */
+    .sec5 {
+        height: 50rem;
+    }
+    .sec5_title {
+        padding-top: 10rem;
+    }
+    /* sec5 */
+
+    /* sec6 */
+    .sec6 {
+        height: 66rem;
+    }
+    .sec6_box > div {
+        width: 33.6rem;
+        height: 42.5rem;
+    }
+    .sec6_textbox {
+        top: 33rem;
+    }
+    /* sec6 */
+
+    /* sec7 */
+    .sec7 {
+        height: 40rem;
+    }
+    .sec7_left, .sec7_right {
+        margin-top: 12rem;
+    }
+    /* sec7 */
+}
+/* ========== 1100 ========== */
+
+/* ========== 1000 ========== */
+@media screen and (max-width: 1000px){
+    html{
+        font-size: 55%;
+    }
+
+    /* header */
+    header {
+        height: 75rem;
+    }
+    .slide .slide1, .slide2 {
+        background-size: 130%;
+        background-position: top;
+    }
+    .header_bg_text {
+        margin-top: 20rem;
+    }
+    /* header */
+
+    /* sec2 */
+    .sec2 {
+        height: 138rem;
+    }
+    .sec2_bg {
+        height: 50vh;
+    }
+    .sec2_title {
+        top: -38rem;
+    }
+    iframe {
+        height: 62rem;
+    }
+    /* sec2 */
+}
+/* ========== 1000 ========== */
+
+
+/* !! 모바일 760px까지 */

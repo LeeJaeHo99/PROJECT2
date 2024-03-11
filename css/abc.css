@@ -1,5 +1,5 @@
-.ac_dep1{
-    width: 50rem;
+/* .ac_dep1{
+    width: 36rem;
     border: 1px solid blue;
 }
 .ac_dep1 > li:not(.ac_dep1_top) > a{
@@ -7,6 +7,9 @@
     height: 100%;
     display: block;
     padding: 2rem 1.6rem 2rem 4rem;
+    font-family: Pretendard;
+    font-size: 2rem;
+    font-weight: 800;
 }
 .ac_dep2 > li > a{
     width: 100%;
@@ -14,9 +17,81 @@
     display: block;
     padding: 1.2rem 1.6rem 1.2rem 4rem;
 }
+.ac_dep1_top img[src="./img/logo/red_logo.png"]{
+    width: 15rem;
+}
 .x{
-    width: 2rem;
+    width: 1.5rem;
 }
 .top{
-    width: 2rem;
+    width: 2.4rem;
+} */
+
+/* ==========  ========== */
+body{
+    height: 200rem;
 }
+.accordian{
+    width: 36rem;
+    height: 100rem;
+    background-color: lightblue;
+}
+/* ========== 글꼴 ========== */
+.ac_dep1 > li > span{
+    color: black;
+    font-family: Pretendard;
+    font-size: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+    user-select: none;
+}
+.ac_dep2 > li > a{
+    font-family: Pretendard;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #4b4b4b;
+}
+/* ========== 글꼴 ========== */
+/* ========== dep1설정 ========== */
+.ac_dep1 > li{
+    padding: 2rem 2rem 0rem 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.ac_dep2 > li {
+    padding: 2rem 0rem 0rem 4rem;
+}
+.ac_dep1 > li > a{
+    display: block;
+    width: 100%;
+}
+.ac_dep2 > li > a{
+    display: block;
+    width: 100%;
+}
+.ac_dep2{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+/* ========== dep1 설정 ========== */
+/* ========== img ========== */
+img[src="./img/logo/red_logo.png"]{
+    width: 15rem;
+    user-select: none;
+}
+.x_btn{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 3rem;
+    user-select: none;
+}
+.top_btn{
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    margin-right: 3rem;
+    user-select: none;
+    /* transform: rotate(180deg); */
+}
+/* ========== img ========== */
