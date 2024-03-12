@@ -316,6 +316,12 @@
         height: 62rem;
     }
     /* sec2 */
+
+    /* footer */
+    footer .inner{
+        max-width: 900px;
+    }
+    /* footer */
 }
 /* ========== 1000 ========== */
 

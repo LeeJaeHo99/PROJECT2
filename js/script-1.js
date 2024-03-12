@@ -26,6 +26,8 @@ if(window.innerWidth <= 1100){
     document.querySelector('.swiper-slide').style.width = '29.5rem';
 }
 
+/* ========== 배너 자바스크립트로 바꿔야함 ========== */
+
 //베너 fadeinout
 const slide = $('slide > div[class*="slide1"], div[class*="slide2"]');
 let idx = 0;
@@ -55,6 +57,7 @@ function textFn(){
     slideText.eq(idx2).addClass('show');
 }
 setInterval(textFn, 4000);
+/* ========== 배너 자바스크립트로 바꿔야함 ========== */
 
 /* ========== 스티키 메뉴 ========== */
 const gnb = document.querySelector('.gnb.df');
@@ -109,11 +112,10 @@ window.onscroll = function() {
     if(height >= 300 && height <= 1500 && width >= 1100){
         sec1Title.style.opacity = 1;
         sec1Title.style.transform = 'translate(0, 0)';
-    }else{
+    }else if(height < 300 && height > 1500 && width >= 1100){
         sec1Title.style.opacity = 0;
         sec1Title.style.transform = 'translate(0, -60%)';
-    };
-    if(height >= 150 && height <= 1500 && width < 1100){
+    }else if(height >= 150 && height <= 1500 && width < 1100){
         sec1Title.style.opacity = 1;
         sec1Title.style.transform = 'translate(0, 0)';
     }else{
@@ -122,14 +124,13 @@ window.onscroll = function() {
     };
 
     //sec1 피자
-    if(height >= 500 && height <=2100 && width >= 1100){
+    if(height >= 500 && height <= 2100 && width >= 1100){
         swiper.style.opacity = 1;
         swiper.style.transform = 'translate(0, 0)';
-    }else{
+    }else if(height < 500 && height > 2100 && width >= 1100){
         swiper.style.opacity = 0;
         swiper.style.transform = 'translate(0, 30%)';
-    };
-    if(height >= 250 && height <= 1600 && width < 1100){
+    }else if(height >= 250 && height <= 1600 && width < 1100){
         swiper.style.opacity = 1;
         swiper.style.transform = 'translate(0, 0)';
     }else{
@@ -141,11 +142,10 @@ window.onscroll = function() {
     if(height >= 1300 && height <= 2900 && width >= 1100){
         iframe.style.opacity = 1;
         iframe.style.transform = 'translate(0, 0)';
-    }else{
+    }else if(height < 1300 && height > 2900 && width >= 1100){
         iframe.style.opacity = 0;
         iframe.style.transform = 'translate(0, -10%)';
-    };
-    if(height >= 900 && height <= 2000 && width < 1100){
+    }else if(height >= 900 && height <= 2000 && width < 1100){
         iframe.style.opacity = 1;
         iframe.style.transform = 'translate(0, 0)';
     }else{
@@ -154,30 +154,28 @@ window.onscroll = function() {
     };
 
     //marquee
-    if(height >= 2100 && height <=3500 && width >= 1100){
+    if(height >= 2100 && height <= 3500 && width >= 1100){
         marquee.style.opacity = 1;
-    }else{
+    }else if(height < 2100 && height > 3500 && width >= 1100){
         marquee.style.opacity = 0;
-    }
-    if(height >= 1500 && height <=2500 && width < 1100){
+    }else if(height >= 1500 && height <= 2500 && width < 1100){
         marquee.style.opacity = 1;
     }else{
         marquee.style.opacity = 0;
     }
 
     //sec5_title, content
-    if(height >=3400 && height <= 5000 && width >= 1100){
+    if(height >= 3400 && height <= 5000 && width >= 1100){
         sec5Title.style.opacity = 1;
         sec5Title.style.transform = 'translate(0, 0)';
         sec5Cnt.style.opacity = 1;
         sec5Cnt.style.transform = 'translate(0, 0)';
-    }else{
+    }else if(height < 3400 && height > 5000 && width >= 1100){
         sec5Title.style.opacity = 0;
         sec5Title.style.transform = 'translate(0, -20%)';
         sec5Cnt.style.opacity = 0;
         sec5Cnt.style.transform = 'translate(0, -20%)';
-    }
-    if(height >=2750 && height <= 4500 && width < 1100){
+    }else if(height >=2750 && height <= 4500 && width < 1100){
         sec5Title.style.opacity = 1;
         sec5Title.style.transform = 'translate(0, 0)';
         sec5Cnt.style.opacity = 1;
@@ -190,22 +188,21 @@ window.onscroll = function() {
     }
 
     //sec5_search
-    if(height >= 3800 && height <= 5000 && width >= 1100){
+    if(height >= 4000 && height <= 5000 && width >= 1100){
         sec5Search.style.opacity = 1;
         sec5Search.style.transform = 'translate(0, 0)';
         sec5Search.style.maxWidth = '84rem';
         searchBar.style.opacity = 1;
         searchBar.style.transform = 'translate(0, 0)';
         searchBar.style.maxWidth = '84rem';
-    }else{
+    }else if(height < 4000 && height > 5000 && width >= 1100){
         sec5Search.style.opacity = 1;
         sec5Search.style.transform = 'translate(0, 100%)';
         sec5Search.style.maxWidth = '7.2rem';
         searchBar.style.opacity = 0;
         searchBar.style.transform = 'translate(0, 100%)';
         searchBar.style.maxWidth = '7.2rem';
-    };
-    if(height >= 3000 && height <= 5000 && width < 1100){
+    }else if(height >= 3000 && height <= 5000 && width < 1100){
         sec5Search.style.opacity = 1;
         sec5Search.style.transform = 'translate(0, 0)';
         sec5Search.style.maxWidth = '84rem';
@@ -227,13 +224,12 @@ window.onscroll = function() {
         sec6Title.style.transform = 'translate(0, 0)';
         sec6Cnt.style.opacity = 1;
         sec6Cnt.style.transform = 'translate(0, 0)';
-    }else{
+    }else if(height < 4100 && height > 6200 && width >= 1100){
         sec6Title.style.opacity = 0;
         sec6Title.style.transform = 'translate(0, -20%)';
         sec6Cnt.style.opacity = 0;
         sec6Cnt.style.transform = 'translate(0, -20%)';
-    };
-    if(height >= 3250 && height <= 6200 && width < 1100){
+    }else if(height >= 3250 && height <= 6200 && width < 1100){
         sec6Title.style.opacity = 1;
         sec6Title.style.transform = 'translate(0, 0)';
         sec6Cnt.style.opacity = 1;
@@ -251,13 +247,12 @@ window.onscroll = function() {
             box.style.opacity = 1;
             box.style.transform = 'translate(0, 0)';
         });
-    }else{
+    }else if(height < 4200 && width >= 1100){
         sec6Box.forEach((box) => {
             box.style.opacity = 0;
             box.style.transform = 'translate(0, -20%)';
         });
-    };
-    if(height >= 3350 && width < 1100){
+    }else if(height >= 3350 && width < 1100){
         sec6Box.forEach((box) => {
             box.style.opacity = 1;
             box.style.transform = 'translate(0, 0)';
@@ -275,13 +270,12 @@ window.onscroll = function() {
         sec7Left.style.transform = 'translate(0, 0)';
         sec7Right.style.opacity = 1;
         sec7Right.style.transform = 'translate(0, 0)';
-    }else{
+    }else if(height < 5000 && width >= 1100){
         sec7Left.style.opacity = 0;
         sec7Left.style.transform = 'translate(0, -40%)';
         sec7Right.style.opacity = 0;
         sec7Right.style.transform = 'translate(0, -40%)';
-    };
-    if(height >= 4150 && width < 1100){
+    }else if(height >= 4150 && width < 1100){
         sec7Left.style.opacity = 1;
         sec7Left.style.transform = 'translate(0, 0)';
         sec7Right.style.opacity = 1;
@@ -292,12 +286,9 @@ window.onscroll = function() {
         sec7Right.style.opacity = 0;
         sec7Right.style.transform = 'translate(0, -40%)';
     };
-    // if(width <= 1100){
-
-    // }
 
     //fixed_button
-    if(height >= 500){
+    if(height >= 500 && width >= 1100){
         fixedBtn.style.opacity = 1;
         fixedBtn.style.transform = 'translate(-50%)';
     }else{
