@@ -19,12 +19,33 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
     el: '.swiper-scrollbar',
     },
+    breakpoints: {
+        500: {
+            slidesPerView: 2,
+            spaceBetween: 240,
+        },
+        550: {
+            slidesPerView: 2,
+            spaceBetween: 180,
+        },
+        600: {
+            slidesPerView: 2,
+            spaceBetween: 120,
+        },
+        650: {
+            slidesPerView: 2,
+            spaceBetween: 300,
+        },
+        770: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        },
+        1290: {
+            slidesPerView: 5,
+            spaceBetween: 300
+        }
+    }
 });
-if(window.innerWidth <= 1100){
-    swiper.slidesPerView = 3;
-    document.querySelector('.swiper-slide').style.marginRight = 0;
-    document.querySelector('.swiper-slide').style.width = '29.5rem';
-}
 
 /* ========== 배너 자바스크립트로 바꿔야함 ========== */
 
@@ -58,6 +79,9 @@ function textFn(){
 }
 setInterval(textFn, 4000);
 /* ========== 배너 자바스크립트로 바꿔야함 ========== */
+
+
+
 
 /* ========== 스티키 메뉴 ========== */
 const gnb = document.querySelector('.gnb.df');
@@ -202,13 +226,27 @@ window.onscroll = function() {
         searchBar.style.opacity = 0;
         searchBar.style.transform = 'translate(0, 100%)';
         searchBar.style.maxWidth = '7.2rem';
-    }else if(height >= 3000 && height <= 5000 && width < 1100){
+    }else if(height >= 3000 && height <= 5000 && width < 1100 && width > 900){
         sec5Search.style.opacity = 1;
         sec5Search.style.transform = 'translate(0, 0)';
         sec5Search.style.maxWidth = '84rem';
         searchBar.style.opacity = 1;
         searchBar.style.transform = 'translate(0, 0)';
         searchBar.style.maxWidth = '84rem';
+    }else if(height < 3000 && height > 5000 && width < 1100){
+        sec5Search.style.opacity = 1;
+        sec5Search.style.transform = 'translate(0, 100%)';
+        sec5Search.style.maxWidth = '7.2rem';
+        searchBar.style.opacity = 0;
+        searchBar.style.transform = 'translate(0, 100%)';
+        searchBar.style.maxWidth = '7.2rem';
+    }else if(height >= 2600 && height <= 4000 && width <= 900){
+        sec5Search.style.opacity = 1;
+        sec5Search.style.transform = 'translate(0, 0)';
+        sec5Search.style.maxWidth = '60rem';
+        searchBar.style.opacity = 1;
+        searchBar.style.transform = 'translate(0, 0)';
+        searchBar.style.maxWidth = '60rem';
     }else{
         sec5Search.style.opacity = 1;
         sec5Search.style.transform = 'translate(0, 100%)';
@@ -216,7 +254,7 @@ window.onscroll = function() {
         searchBar.style.opacity = 0;
         searchBar.style.transform = 'translate(0, 100%)';
         searchBar.style.maxWidth = '7.2rem';
-    };
+    }
 
     //sec6_title
     if(height >= 4100 && height <= 6200 && width >= 1100){
@@ -288,7 +326,7 @@ window.onscroll = function() {
     };
 
     //fixed_button
-    if(height >= 500 && width >= 1100){
+    if(height >= 500){
         fixedBtn.style.opacity = 1;
         fixedBtn.style.transform = 'translate(-50%)';
     }else{
