@@ -654,59 +654,212 @@
 /* ========== 700 ========== */
 @media screen and (max-width: 700px){
     /* header */
+    header {
+        height: 96rem;
+    }
     .gnb_dep1 {
         display: none;
     }
+    .slide .slide1, .slide2 {
+        background-size: 100%;
+        background-position: top;
+    }
+    .header_bg_text {
+        margin-top: 55rem;
+    }
     /* header */
+
+    /* sec1 */
+    .sec1_title {
+        font-size: 3.8rem;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        top: 31.5rem;
+    }
+    .swiper-button-prev {
+        left: 3rem;
+    }
+    .swiper-button-next {
+        right: 3rem;
+    }
+    /* sec1 */
+
+    /* sec2 */
+    .sec2_title {
+        top: -42rem;
+        left: 18rem;
+        font-size: 4.8rem;
+    }
+    iframe {
+        top: -30rem;
+    }
+    /* sec2 */
+
+    /* sec4 */
+    .sec4 {
+        height: 45rem;
+    }
+    /* sec4 */
+
+    /* sec6 */
+    .sec6_box > div {
+        width: 23.6rem;
+        height: 33.5rem;
+    }
+    .sec6_textbox {
+        top: 24.2rem;
+    }
+    .imgbox {
+        height: 72.5%;
+    }
+    /* sec6 */
 }
 /* ========== 700 ========== */
-
-/* todo 여기부터 해야함 */
-/* todo 여기부터 해야함 */
-/* todo 여기부터 해야함 */
 
 
 /* ========== 650 ========== */
 @media screen and (max-width: 650px){
     /* sec1 */
     .swiper-slide img {
-        width: 40rem;
-        height: 40rem;
+        width: 50rem;
+        height: 50rem;
     }
     .pizza_textbox {
-        margin-left: 0rem;
+        margin-left: 10rem;
     }
     .swiper-button-prev, .swiper-button-next {
         top: 23.5rem;
     }
     .swiper-wrapper {
-        left: -27rem;
+        left: -97rem;
+    }
+    .new::before, .best::before {
+        top: 8rem;
+        right: -5.8rem;
     }
     /* sec1 */
+
+    /* sec7 */
+    .sec7_left, .sec7_right {
+        width: 29rem;
+    }
+    /* sec7 */
 }
 /* ========== 650 ========== */
 
 /* ========== 600 ========== */
 @media screen and (max-width: 600px){
     /* sec1 */
+    .sec1 {
+        height: 60rem;
+    }
     .swiper-slide img {
         width: 38rem;
         height: 38rem;
     }
     .swiper-wrapper {
-        left: -24.5rem;
+        left: -68.5rem;
+    }
+    .new::before, .best::before {
+        right: 1.2rem;
+    }
+    .pizza_textbox {
+        margin-left: 2rem;
     }
     /* sec1 */
+
+    /* sec2 */
+    .sec2 {
+        height: 95rem;
+    }
+    .sec2_bg {
+        height: 40vh;
+    }
+    .sec2_title {
+        left: 16rem;
+        font-size: 3.8rem;
+    }
+    iframe {
+        top: -30rem;
+    }
+    .marquee_box {
+        padding-top: 26rem;
+    }
+    /* sec2 */
+
+    /* sec4 */
+    .sec4_left{
+        width: 60%;
+    }
+    .sec4_left img {
+        width: 70%;
+    }
+    .sec4_right_textbox_title {
+        font-size: 4rem;
+    }
+    .sec4_right_textbox_content {
+        font-size: 1.4rem;
+        margin-bottom: 4rem;
+    }
+    .black_button, .button_front, .button_back{
+        width: 20rem;
+    }
+    /* sec4 */
+
+    /* sec7 */
+    .sec7_left, .sec7_right {
+        width: 26rem;
+        height: 20rem;
+    }
+
+    .sec7_link {
+        margin: 1rem 0;
+    }
+    .right_link, .left_link{
+        align-items: center;
+        justify-content: space-between;
+    }
+    /* sec7 */
+
+    /* footer */
+    footer .inner {
+        max-width: 500px;
+    }
+    .footer_copy_icon span {
+        width: 60%;
+    }
+    .footer_icon {
+        width: 30%;
+    }
+    /* footer */
 }
 /* ========== 600 ========== */
+
+/* todo 여기부터 */
+/* todo 여기부터 */
+/* todo 여기부터 */
+/* todo 여기부터 */
+/* todo 여기부터 */
 
 /* ========== 550 ========== */
 @media screen and (max-width: 550px){
     /* sec1 */
     .swiper-wrapper {
-        left: -29.5rem;
+        left: -72rem;
     }
     /* sec1 */
+
+    /* sec2 */
+    .sec2_title {
+        left: 14rem;
+    }
+    iframe {
+        height: 31.6rem;
+    }
+    .marquee_box {
+        padding-top: 8rem;
+    }
+    /* sec2 */
 }
 /* ========== 550 ========== */
 

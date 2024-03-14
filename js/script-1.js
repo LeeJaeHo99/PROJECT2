@@ -3,6 +3,26 @@ document.querySelector('.close').addEventListener('click', () => {
     document.querySelector('.popup').style.display = 'none';
 })
 
+//gsap header 고정
+// if(window.innerWidth >= 900){
+//     const panel = document.querySelector('header');
+//     ScrollTrigger.create({
+//         trigger : panel,
+//         start : 'top top',
+//         pin : true,
+//         pinSpacing : false,
+//     });
+// }else{
+//     const panel = document.querySelector('header');
+//     ScrollTrigger.create({
+//         trigger : panel,
+//         start : 'top top',
+//         pin : false,
+//         pinSpacing : false,
+//     });
+// }
+
+
 //스와이퍼
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
@@ -124,12 +144,21 @@ window.onscroll = function() {
     /* ===== 변수 ===== */
 
     //스티키 메뉴
-    if(height >= 1100 && width >= 1100){
+    if(height >= 1100){
         gnbStickyContainer.style.top = 0;
         gnbStickyContainer.style.opacity = 1;
     }else{
         gnbStickyContainer.style.top = '-50%';
         gnbStickyContainer.style.opacity = 0;
+    }
+
+    //slide 사진 변경
+    if(width <= 700){
+        document.querySelector('.slide1').style.backgroundImage = 'url(../img/mainpage/main/main_banner_m1.png)';
+        document.querySelector('.slide2').style.backgroundImage = 'url(../img/mainpage/main/main_banner_m2.png)';
+    }else{
+        document.querySelector('.slide1').style.backgroundImage = 'url(../img/mainpage/main/main_banner_pc1.png)';
+        document.querySelector('.slide2').style.backgroundImage = 'url(../img/mainpage/main/main_banner_pc2.png)';
     }
 
     //sec1 타이틀
