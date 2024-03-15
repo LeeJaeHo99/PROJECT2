@@ -564,8 +564,8 @@ iframe{
 }
 .marquee .txt span{
     -webkit-text-stroke: 1px var(--primary1);
-    display: block;
     color: transparent;
+    display: block;
     padding: 0 1.6rem;
 }
 

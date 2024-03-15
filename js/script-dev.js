@@ -97,8 +97,12 @@ const el = {
 	sec4: document.querySelector('.sec4').offsetTop * 0.5,
 	sec5: document.querySelector('.sec5').offsetTop * 0.85,
 	sec5T: document.querySelector('.sec5').offsetTop * 0.925,
-	sec6: document.querySelector('.sec6').offsetTop * 0.5,
+	sec6: document.querySelector('.sec6').offsetTop * 0.3,
 	sec7: document.querySelector('.sec7').offsetTop * 0.9,
+
+	//slide
+    slide1 : document.querySelector('.slide1'),
+    slide2 : document.querySelector('.slide2'),
 	
 	//sec1
 	sec1Title: document.querySelector('.sec1_title'),
@@ -154,6 +158,17 @@ const breakPointFn = (height, width) => {
 	}else{
 		stickyFn('-50%', 0);
 	}
+
+	//slide 사진 변경
+    // if(height >= 1100 && width <= 700){
+    //     slide1.style.backgroundImage = 'url(../img/mainpage/main/main_banner_pc1.png)';
+    //     slide2.style.backgroundImage = 'url(../img/mainpage/main/main_banner_pc2.jpg)';
+	// }else{
+    //     slide1.style.backgroundImage = 'url(../img/mainpage/main/main_banner_m1.png)';
+    //     slide2.style.backgroundImage = 'url(../img/mainpage/main/main_banner_m2.png)';
+    // }
+
+
 	//sec1
 	if(width >= 1100){
 		if (height >= el.sec1) {
@@ -253,6 +268,7 @@ const breakPointFn = (height, width) => {
 			el.style(el.sec6Box, 0, 'translate(0, -20%)');
 		}
 	}
+	//!! 수정해야함
 	//sec6
 
 	//sec7

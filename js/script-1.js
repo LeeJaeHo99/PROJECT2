@@ -67,7 +67,6 @@ const swiper = new Swiper('.swiper', {
     }
 });
 
-/* ========== 배너 자바스크립트로 바꿔야함 ========== */
 
 //베너 fadeinout
 const slide = $('slide > div[class*="slide1"], div[class*="slide2"]');
@@ -98,12 +97,10 @@ function textFn(){
     slideText.eq(idx2).addClass('show');
 }
 setInterval(textFn, 4000);
-/* ========== 배너 자바스크립트로 바꿔야함 ========== */
 
 
 
-
-/* ========== 스티키 메뉴 ========== */
+//스티키 메뉴뉴
 const gnb = document.querySelector('.gnb.df');
 let gnbStickyContainer = document.createElement('div');
 gnbStickyContainer.className = 'gnb_sticky';
@@ -158,7 +155,7 @@ window.onscroll = function() {
         document.querySelector('.slide2').style.backgroundImage = 'url(../img/mainpage/main/main_banner_m2.png)';
     }else{
         document.querySelector('.slide1').style.backgroundImage = 'url(../img/mainpage/main/main_banner_pc1.png)';
-        document.querySelector('.slide2').style.backgroundImage = 'url(../img/mainpage/main/main_banner_pc2.png)';
+        document.querySelector('.slide2').style.backgroundImage = 'url(../img/mainpage/main/main_banner_pc2.jpg)';
     }
 
     //sec1 타이틀
@@ -211,7 +208,7 @@ window.onscroll = function() {
         marquee.style.opacity = 1;
     }else if(height < 2100 && height > 3500 && width >= 1100){
         marquee.style.opacity = 0;
-    }else if(height >= 1500 && height <= 2500 && width < 1100){
+    }else if(height >= 1200 && height <= 2500 && width < 1100){
         marquee.style.opacity = 1;
     }else{
         marquee.style.opacity = 0;
@@ -228,7 +225,7 @@ window.onscroll = function() {
         sec5Title.style.transform = 'translate(0, -20%)';
         sec5Cnt.style.opacity = 0;
         sec5Cnt.style.transform = 'translate(0, -20%)';
-    }else if(height >=2750 && height <= 4500 && width < 1100){
+    }else if(height >=2000 && height <= 4500 && width < 1100){
         sec5Title.style.opacity = 1;
         sec5Title.style.transform = 'translate(0, 0)';
         sec5Cnt.style.opacity = 1;
@@ -269,13 +266,13 @@ window.onscroll = function() {
         searchBar.style.opacity = 0;
         searchBar.style.transform = 'translate(0, 100%)';
         searchBar.style.maxWidth = '7.2rem';
-    }else if(height >= 2600 && height <= 4000 && width <= 900){
+    }else if(height >= 2200 && height <= 4000 && width <= 900){
         sec5Search.style.opacity = 1;
         sec5Search.style.transform = 'translate(0, 0)';
-        sec5Search.style.maxWidth = '60rem';
+        sec5Search.style.maxWidth = '55rem';
         searchBar.style.opacity = 1;
         searchBar.style.transform = 'translate(0, 0)';
-        searchBar.style.maxWidth = '60rem';
+        searchBar.style.maxWidth = '55rem';
     }else{
         sec5Search.style.opacity = 1;
         sec5Search.style.transform = 'translate(0, 100%)';
@@ -296,7 +293,7 @@ window.onscroll = function() {
         sec6Title.style.transform = 'translate(0, -20%)';
         sec6Cnt.style.opacity = 0;
         sec6Cnt.style.transform = 'translate(0, -20%)';
-    }else if(height >= 3250 && height <= 6200 && width < 1100){
+    }else if(height >= 2650 && height <= 6200 && width < 1100){
         sec6Title.style.opacity = 1;
         sec6Title.style.transform = 'translate(0, 0)';
         sec6Cnt.style.opacity = 1;
@@ -319,7 +316,7 @@ window.onscroll = function() {
             box.style.opacity = 0;
             box.style.transform = 'translate(0, -20%)';
         });
-    }else if(height >= 3350 && width < 1100){
+    }else if(height >= 2550 && width < 1100){
         sec6Box.forEach((box) => {
             box.style.opacity = 1;
             box.style.transform = 'translate(0, 0)';
@@ -342,7 +339,7 @@ window.onscroll = function() {
         sec7Left.style.transform = 'translate(0, -40%)';
         sec7Right.style.opacity = 0;
         sec7Right.style.transform = 'translate(0, -40%)';
-    }else if(height >= 4150 && width < 1100){
+    }else if(height >= 3250 && width < 1100){
         sec7Left.style.opacity = 1;
         sec7Left.style.transform = 'translate(0, 0)';
         sec7Right.style.opacity = 1;
