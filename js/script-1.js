@@ -150,13 +150,13 @@ window.onscroll = function() {
     }
 
     //slide 사진 변경
-    if(width <= 700){
-        document.querySelector('.slide1').style.backgroundImage = 'url(../img/mainpage/main/main_banner_m1.png)';
-        document.querySelector('.slide2').style.backgroundImage = 'url(../img/mainpage/main/main_banner_m2.png)';
-    }else{
-        document.querySelector('.slide1').style.backgroundImage = 'url(../img/mainpage/main/main_banner_pc1.png)';
-        document.querySelector('.slide2').style.backgroundImage = 'url(../img/mainpage/main/main_banner_pc2.jpg)';
-    }
+    // if(width <= 700){
+    //     document.querySelector('.slide1').style.backgroundImage = 'url(../img/mainpage/main/main_banner_m1.png)';
+    //     document.querySelector('.slide2').style.backgroundImage = 'url(../img/mainpage/main/main_banner_m2.png)';
+    // }else{
+    //     document.querySelector('.slide1').style.backgroundImage = 'url(../img/mainpage/main/main_banner_pc1.png)';
+    //     document.querySelector('.slide2').style.backgroundImage = 'url(../img/mainpage/main/main_banner_pc2.jpg)';
+    // }
 
     //sec1 타이틀
     if(height >= 300 && height <= 1500 && width >= 1100){
