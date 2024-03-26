@@ -41,7 +41,6 @@ header{
     }
 
     & .indent_logo{
-        /* text-indent: 9999999rem; */
         display: none;
     }
 }
@@ -142,7 +141,7 @@ nav{
 .sec1_bg{
     width: 100%;
     height: 35rem;
-    background-image: url(/img/subpage/brand/history/history_bg_pc.jpg);
+    background-image: url(../../img/subpage/brand/history/history_bg_pc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
