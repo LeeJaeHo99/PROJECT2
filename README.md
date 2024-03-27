@@ -20,7 +20,6 @@
   - [아웃라인](#아웃라인)
   - [브라우저 호환성](#브라우저-호환성)
   - [Contact](#contact)
-<!-- * [License](#license) -->
 
 
 # 프로젝트 소개
@@ -165,7 +164,7 @@ body
         └── header
         │    ├── slide
         │    └── nav
-        └── main/
+        └── main
         │    ├── section1
         │    ├── section2
         │    ├── section3
