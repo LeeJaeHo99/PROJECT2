@@ -12,10 +12,10 @@
   - [라이브러리](#라이브러리)
   - [주요구현사항](#주요구현사항)
   - [해당 프로젝트를 통해 배운점](#해당-프로젝트를-통해-배운점)
-      - [Swiper 메뉴](#swiper-메뉴)
-      - [Gsap 스티키 Gnb](#gsap-스티키-gnb)
-      - [window.innerWidth가 700을 초과하였을 경우 벼경](#windowinnerwidth가-700을-초과하였을-경우-벼경)
-      - [window.innerWidth가 700 미만일 경우 벼경](#windowinnerwidth가-700-미만일-경우-벼경)
+      - [Swiper 메뉴 (구현 화면)](#swiper-메뉴-구현-화면)
+      - [Gsap 스티키 Gnb (구현 화면)](#gsap-스티키-gnb-구현-화면)
+      - [window.innerWidth가 700을 초과하였을 경우 배경 (구현 화면)](#windowinnerwidth가-700을-초과하였을-경우-배경-구현-화면)
+      - [window.innerWidth가 700 미만일 경우 배경 (구현 화면)](#windowinnerwidth가-700-미만일-경우-배경-구현-화면)
   - [폴더 구조](#폴더-구조)
   - [아웃라인](#아웃라인)
   - [브라우저 호환성](#브라우저-호환성)
@@ -58,9 +58,9 @@
   효율적으로 구현해 내는 방법을 배웠습니다.
 - Swiper로는 메인화면 Pizza 슬라이드, Gsap으로는 스크롤시 나타나는 스티키 메뉴 바를 제작하였습니다.
 ```
-#### Swiper 메뉴
+#### Swiper 메뉴 (구현 화면)
 ![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/9a82a9dc-4a5e-4bb3-9080-b842bc992c78)
-#### Gsap 스티키 Gnb
+#### Gsap 스티키 Gnb (구현 화면)
 ![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/a520b48b-04d2-46fd-a1c5-3bcd174fc40d)
 
 ```javascript
@@ -83,10 +83,10 @@ window.addEventListener('resize', function(){
         }
     });
 ```
-#### window.innerWidth가 700을 초과하였을 경우 벼경
+#### window.innerWidth가 700을 초과하였을 경우 배경 (구현 화면)
 ![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/97fb2b46-a1bb-4ac1-94b6-d2b2bb28f7d3)
 
-#### window.innerWidth가 700 미만일 경우 벼경
+#### window.innerWidth가 700 미만일 경우 배경 (구현 화면)
 ![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/e44acc4e-3e78-4936-b225-d9bca8063255)
 
 
