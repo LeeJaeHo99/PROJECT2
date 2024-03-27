@@ -12,10 +12,10 @@
   - [라이브러리](#라이브러리)
   - [주요구현사항](#주요구현사항)
   - [해당 프로젝트를 통해 배운점](#해당-프로젝트를-통해-배운점)
-      - [Swiper 메뉴 (구현 화면)](#swiper-메뉴-구현-화면)
-      - [Gsap 스티키 Gnb (구현 화면)](#gsap-스티키-gnb-구현-화면)
       - [window.innerWidth가 700을 초과하였을 경우 배경 (구현 화면)](#windowinnerwidth가-700을-초과하였을-경우-배경-구현-화면)
       - [window.innerWidth가 700 미만일 경우 배경 (구현 화면)](#windowinnerwidth가-700-미만일-경우-배경-구현-화면)
+      - [Swiper 메뉴 (구현 화면)](#swiper-메뉴-구현-화면)
+      - [Gsap 스티키 Gnb (구현 화면)](#gsap-스티키-gnb-구현-화면)
   - [폴더 구조](#폴더-구조)
   - [아웃라인](#아웃라인)
   - [브라우저 호환성](#브라우저-호환성)
@@ -50,21 +50,7 @@
 ## 해당 프로젝트를 통해 배운점
 
 ```javascript
-1. Swiper와 Gsap 라이브러리를 이용한 CSS 효과
-
-- 화려한 효과를 구현하려면 바닐라 자바스크립트, css 만으로 구현하기 복잡하고, 
-  코드가 길어져 코드 가독성이 떨어지는 경우가 많았습니다.
-- 이러한 과정에서 Swiper와 Gsap 라이브러리를 이용해 코드 가독성을 높이고,
-  효율적으로 구현해 내는 방법을 배웠습니다.
-- Swiper로는 메인화면 Pizza 슬라이드, Gsap으로는 스크롤시 나타나는 스티키 메뉴 바를 제작하였습니다.
-```
-#### Swiper 메뉴 (구현 화면)
-![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/9a82a9dc-4a5e-4bb3-9080-b842bc992c78)
-#### Gsap 스티키 Gnb (구현 화면)
-![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/a520b48b-04d2-46fd-a1c5-3bcd174fc40d)
-
-```javascript
-2. 스크린 가로 넓이에 따른 background-image 속성 변경
+1. 스크린 가로 넓이에 따른 background-image 속성 변경
 
 - window.addEventListener의 resize 이벤트가 발생하였을때 실행되는 if문을 활용하여 
   스크린 가로의 넓이가 줄어들었을때 url값을 변경하는 방법을 배웠습니다.
@@ -88,6 +74,21 @@ window.addEventListener('resize', function(){
 
 #### window.innerWidth가 700 미만일 경우 배경 (구현 화면)
 ![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/e44acc4e-3e78-4936-b225-d9bca8063255)
+
+
+```javascript
+2. Swiper와 Gsap 라이브러리를 이용한 CSS 효과
+
+- 화려한 효과를 구현하려면 바닐라 자바스크립트, css 만으로 구현하기 복잡하고, 
+  코드가 길어져 코드 가독성이 떨어지는 경우가 많았습니다.
+- 이러한 과정에서 Swiper와 Gsap 라이브러리를 이용해 코드 가독성을 높이고,
+  효율적으로 구현해 내는 방법을 배웠습니다.
+- Swiper로는 메인화면 Pizza 슬라이드, Gsap으로는 스크롤시 나타나는 스티키 메뉴 바를 제작하였습니다.
+```
+#### Swiper 메뉴 (구현 화면)
+![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/9a82a9dc-4a5e-4bb3-9080-b842bc992c78)
+#### Gsap 스티키 Gnb (구현 화면)
+![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/a520b48b-04d2-46fd-a1c5-3bcd174fc40d)
 
 
 ## 폴더 구조

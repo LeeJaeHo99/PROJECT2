@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fred Pizza</title>
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/store/store_great.css">
+    <link rel="stylesheet" href="./css/store/store_find.css">
     <link rel="shortcut icon" href="./img/logo/favicon.png" type="image/x-icon">
 </head>
 <body>
@@ -120,35 +120,10 @@
             </section> <!-- sec1 -->
             <section class="sec2">
                 <div class="inner df">
-                    <div class="sec2_left pr">
-                        <div class="imgbox pa">
-                            <img src="./img/subpage/store/store_r1.png" alt="프레드피자 인제대점">
-                        </div>
-                        <div class="sec2_textbox pa">
-                            <div class="sec2_textbox_title"><a href="#">프레드피자 인제대점 [23년 11월  우수 가맹점]</a></div>
-                            <div class="sec2_textbox_address">경남 김해시 활천로68번길 39 1층</div>
-                            <span class="sec2_textbox_call">전화: 055-339-3248</span>
-                            <span class="sec2_textbox_time">영업시간: 11:00-02:00</span>
-                        </div>
-                    </div>  <!-- left -->
-                    <div class="sec2_right pr">
-                        <div class="imgbox pa">
-                            <img src="./img/subpage/store/store_r2.png" alt="프레드피자 동두천점">
-                        </div>
-                        <div class="sec2_textbox pa">
-                            <div class="sec2_textbox_title"><a href="#">프레드피자 동두천점 [23년 12월 우수 가맹점]</a></div>
-                            <div class="sec2_textbox_address">경기 동두천시 평화로 2270 1층</div>
-                            <span class="sec2_textbox_call">전화: 0507-1460-7858</span>
-                            <span class="sec2_textbox_time">영업시간: 11:30-01:45</span>
-                        </div>
-                    </div> <!-- right -->
+                    <div id="map" style="width:100%;height:800px;border-radius: 20px;"></div>
                 </div> <!-- sec2_inner -->
             </section> <!-- sec2 -->
-            <section class="sec3">
-                <div class="inner">
-                    <div class="sec3_num">1</div> <!-- num -->
-                </div> <!-- sec3_inner -->
-            </section> <!-- sec3 -->
+            
         </main> <!-- main -->
         <footer>
             <div class="inner">
@@ -179,7 +154,8 @@
             </div> <!-- footer inner -->
         </footer> <!-- footer -->
         <script src='https://code.jquery.com/jquery-3.7.1.min.js' integrity='sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=' crossorigin='anonymous'></script>
-        <script src="./js/store/store_great.js"></script>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9fadb087f96e165e7b388fe0e3c65107"></script>
+        <script src="./js/store/store_find.js"></script>
     </div> <!-- wrap -->
 </body>
 </html>
