@@ -50,7 +50,16 @@
 ## 해당 프로젝트를 통해 배운점
 
 ```javascript
-1. 스크린 가로 넓이에 따른 background-image 속성 변경
+1. 카카오 API를 활용한 카카오 지도 구현 (서브페이지: 매장찾기)
+- 카카오 api를 활용하여 카카오 지도를 프로젝트 내에 표현하였다.
+- 카카오에서 제공하는 네비, 캘린더, 로그인 등 다양한 기능을 앞으로 더 쉽게 실무에서 사용 가능할 수 있게 되었다.
+```
+![image](https://github.com/LeeJaeHo0104/PROJECT2/assets/151009272/c6d302b7-a320-4d9f-9521-02fc84e5f7cb)
+
+
+
+```javascript
+2. 스크린 가로 넓이에 따른 background-image 속성 변경
 
 - window.addEventListener의 resize 이벤트가 발생하였을때 실행되는 if문을 활용하여 
   스크린 가로의 넓이가 줄어들었을때 url값을 변경하는 방법을 배웠습니다.
@@ -77,7 +86,7 @@ window.addEventListener('resize', function(){
 
 
 ```javascript
-2. Swiper와 Gsap 라이브러리를 이용한 CSS 효과
+3. Swiper와 Gsap 라이브러리를 이용한 CSS 효과
 
 - 화려한 효과를 구현하려면 바닐라 자바스크립트, css 만으로 구현하기 복잡하고, 
   코드가 길어져 코드 가독성이 떨어지는 경우가 많았습니다.
