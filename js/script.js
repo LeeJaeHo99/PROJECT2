@@ -106,7 +106,6 @@ cloneEl();
 //스크롤 애니메이션
 window.onscroll = function() {
     let height = window.pageYOffset;
-    console.log('height: ', height);
     let width = window.innerWidth;
 
     /* ===== 변수 ===== */

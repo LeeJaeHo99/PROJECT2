@@ -1,6 +1,5 @@
 window.onscroll = function(){
     let height = window.pageYOffset;
-    console.log(`스크롤 높이 : ` + height);
 
     /* ===== 변수 ===== */
     const fixedBtn = document.querySelector('.fixed_button');

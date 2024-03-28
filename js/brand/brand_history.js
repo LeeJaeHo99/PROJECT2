@@ -1,7 +1,6 @@
 //스크롤 애니메이션
 window.onscroll = function() {
     let height = window.pageYOffset;
-    console.log(`스크롤 높이 : ` + height);
     
     /* ===== 변수 ===== */
     const medal = document.querySelectorAll('.sec3_medal > div');
