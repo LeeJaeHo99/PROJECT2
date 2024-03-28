@@ -126,6 +126,12 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+.accordian{
+    display: none;
+    position: absolute;
+    right: 7%;
+    cursor: pointer;
+}
 /* ===== logo ===== */
 .logo{
     width: 30%;

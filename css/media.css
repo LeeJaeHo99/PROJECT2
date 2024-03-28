@@ -694,6 +694,9 @@
     .header_bg_text {
         margin-top: 55rem;
     }
+    .accordian{
+        display: block;
+    }
     /* header */
 
     /* sec1 */
