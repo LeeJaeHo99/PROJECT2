@@ -369,10 +369,10 @@ window.addEventListener('resize', function(){
     const slide1 = document.querySelector('.slide1');
     const slide2 = document.querySelector('.slide2');
     if(window.innerWidth < 700){
-        slide1.style.backgroundImage = 'url(./img/mainpage/main/main_banner_m1.png)';
-        slide2.style.backgroundImage = 'url(./img/mainpage/main/main_banner_m2.png)';
+        slide1.style.backgroundImage = 'url(../img/mainpage/main/main_banner_m1.png)';
+        slide2.style.backgroundImage = 'url(../img/mainpage/main/main_banner_m2.png)';
     }else{
-        slide1.style.backgroundImage = 'url(./img/mainpage/main/main_banner_pc1.png)';
-        slide2.style.backgroundImage = 'url(./img/mainpage/main/main_banner_pc2.jpg)';
+        slide1.style.backgroundImage = 'url(../img/mainpage/main/main_banner_pc1.png)';
+        slide2.style.backgroundImage = 'url(../img/mainpage/main/main_banner_pc2.jpg)';
     }
 });
