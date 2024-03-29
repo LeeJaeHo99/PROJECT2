@@ -12,6 +12,8 @@
   - [라이브러리](#라이브러리)
   - [주요구현사항](#주요구현사항)
   - [해당 프로젝트를 통해 배운점](#해당-프로젝트를-통해-배운점)
+    - [기본 Gnb (구현화면)](#기본-gnb-구현화면)
+    - [변경된 Gnb (구현화면)](#변경된-gnb-구현화면)
       - [window.innerWidth가 700을 초과하였을 경우 배경 (구현 화면)](#windowinnerwidth가-700을-초과하였을-경우-배경-구현-화면)
       - [window.innerWidth가 700 미만일 경우 배경 (구현 화면)](#windowinnerwidth가-700-미만일-경우-배경-구현-화면)
       - [Swiper 메뉴 (구현 화면)](#swiper-메뉴-구현-화면)
@@ -19,7 +21,6 @@
   - [폴더 구조](#폴더-구조)
   - [아웃라인](#아웃라인)
   - [브라우저 호환성](#브라우저-호환성)
-  - [Contact](#contact)
 
 
 # 프로젝트 소개
@@ -56,9 +57,24 @@
 ![image](https://github.com/LeeJaeHo0104/PROJECT2/assets/151009272/c6d302b7-a320-4d9f-9521-02fc84e5f7cb)
 
 
+```javascript
+2. Gnb 스티키 메뉴
+- cloneNode 함수와 true 인자를 사용하여 원래의 gnb 메뉴와 그 자식 요소들을 모두 복제했습니다.  
+  이를 통해 원본 gnb 메뉴의 복사본을 변수 gnbClonedp 저장하였습니다.
+- 이후, appendChild 함수를 이용해 복제된 gnb 메뉴를 gnbStickyContainer 변수에 추가하였고, 
+  이 과정을 통해 복제된 메뉴가 변수 gnbStickyContainer 안에 위치하게 되었습니다.
+- 마지막으로 setAttribute 함수를 사용해 복제된 gnb 메뉴 안에 있는 로고 이미지의 소스를 
+  기존의 것과 다른 빨간색 로고 이미지로 변경하였습니다.
+```
+### 기본 Gnb (구현화면)
+![sticky_1](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/bfdf235f-06ae-4b95-a91f-a4dfc23e75e5)
+
+### 변경된 Gnb (구현화면)
+![sticky_2](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/a9312456-1b26-442a-b835-428e3be95598)
+
 
 ```javascript
-2. 스크린 가로 넓이에 따른 background-image 속성 변경
+3. 스크린 가로 넓이에 따른 background-image 속성 변경
 
 - window.addEventListener의 resize 이벤트가 발생하였을때 실행되는 if문을 활용하여 
   스크린 가로의 넓이가 줄어들었을때 url값을 변경하는 방법을 배웠습니다.
@@ -85,7 +101,7 @@ window.addEventListener('resize', function(){
 
 
 ```javascript
-3. Swiper와 Gsap 라이브러리를 이용한 CSS 효과
+4. Swiper와 Gsap 라이브러리를 이용한 CSS 효과
 
 - 화려한 효과를 구현하려면 바닐라 자바스크립트, css 만으로 구현하기 복잡하고, 
   코드가 길어져 코드 가독성이 떨어지는 경우가 많았습니다.
@@ -188,9 +204,3 @@ body
 |디바이스 종류|PC|Tablet|Mobile|
 |---|---|---|---
 |컨테이너 너비|1600px|1000px|700px
-
-
-## Contact
-- 이름 : 이재호
-- 연락처 : 010-5351-5294
-- 이메일 : ljh2735294@naver.com
