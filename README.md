@@ -56,6 +56,7 @@
 ```
 ![image](https://github.com/LeeJaeHo0104/PROJECT2/assets/151009272/c6d302b7-a320-4d9f-9521-02fc84e5f7cb)
 
+---
 
 ```javascript
 2. Gnb 스티키 메뉴
@@ -72,6 +73,7 @@
 ### 변경된 Gnb (구현화면)
 ![sticky_2](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/a9312456-1b26-442a-b835-428e3be95598)
 
+---
 
 ```javascript
 3. 스크린 가로 넓이에 따른 background-image 속성 변경
@@ -99,6 +101,7 @@ window.addEventListener('resize', function(){
 #### window.innerWidth가 700 미만일 경우 배경 (구현 화면)
 ![image](https://github.com/LeeJaeHo0104/PROJECT__1/assets/151009272/e44acc4e-3e78-4936-b225-d9bca8063255)
 
+---
 
 ```javascript
 4. Swiper와 Gsap 라이브러리를 이용한 CSS 효과
