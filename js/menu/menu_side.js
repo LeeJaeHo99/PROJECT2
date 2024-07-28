@@ -1,3 +1,14 @@
+//사이드 메뉴 생성
+const sideMenu = [
+    {
+        class : 'RoseCheeseBall',
+        nameKo : '로제치즈볼',
+        nameEn : 'Rose Cheese Ball',
+        backCon : `달콤매콤 로제소스가 입안가득<br>쫀~득한 찹쌀 속 로제 가득 치즈볼!`,
+        backP  : '5,000원',
+    },
+];
+
 //스크롤 애니메이션
 window.onscroll = function(){
     let height = window.pageYOffset;
